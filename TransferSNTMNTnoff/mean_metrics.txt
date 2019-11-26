@@ -1,0 +1,12 @@
+Mean metrics for TransferSNTMNTnoff:
+mean_validation_accuracy: 0.8530864197530864
+mean_validation_f1: 0.8512766071204816
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.47442935488440774
+mean_test_accuracy: 0.817283950617284
+mean_test_f1: 0.8103997078190128
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.5338915968483144
+mean_test_avg_f1: 0.8170109765144025

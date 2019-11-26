@@ -1,0 +1,8 @@
+joy
+sadness
+fear
+anger
+surprise
+disgust
+trust
+anticipation

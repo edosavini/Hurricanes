@@ -1,0 +1,12 @@
+Mean metrics for TransferBU:
+mean_validation_accuracy: 0.8111111111111112
+mean_validation_f1: 0.8109630665293912
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.47938587665557864
+mean_test_accuracy: 0.7790123456790123
+mean_test_f1: 0.7709646517865197
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.47193038030104206
+mean_test_avg_f1: 0.7784273523709688

@@ -1,0 +1,12 @@
+Mean metrics for emobilstm:
+mean_validation_accuracy: 0.8469135802469137
+mean_validation_f1: 0.8455208301621304
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.4342722009528767
+mean_test_accuracy: 0.8185185185185185
+mean_test_f1: 0.8130057226630398
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.4864317331801761
+mean_test_avg_f1: 0.8183391813255145
