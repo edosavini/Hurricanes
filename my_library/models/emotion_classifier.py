@@ -94,7 +94,7 @@ class SarcasmClassifier(Model):
             # print("label: {}\n".format(label.size()))
             class_probs = F.softmax(logits, dim=1)
             output_dict = {"logits": logits}
-            loss = self.loss(logits, labelemotion_classifier.py)
+            loss = self.loss(logits, label)
             output_dict["loss"] = loss
             for i in range(self.num_classes_emotions):
                 metric = self.label_f1_metrics_emotions[self.vocab.get_token_from_index(index=i, namespace="labels")]
