@@ -12,7 +12,6 @@ from allennlp.data.fields import LabelField, TextField
 from allennlp.data.instance import Instance
 from allennlp.data.tokenizers import Tokenizer, WordTokenizer
 from allennlp.data.token_indexers import TokenIndexer, SingleIdTokenIndexer
-from transformers import BertTokenizer
 
 logger = logging.getLogger(__name__)  # pylint: disable=invalid-name
 
@@ -22,15 +21,9 @@ class SarcasmDatasetReader(DatasetReader):
     def __init__(self,
                  lazy: bool = False,
                  tokenizer: Tokenizer = None,
-                 bert_model_name: str = None,
                  token_indexers: Dict[str, TokenIndexer] = None) -> None:
         super().__init__(lazy)
-        if bert_model_name:
-            self._tokenizer = BertTokenizer.from_pretrained(bert_model_name)
-            # self.lowercase_input = "uncased" in bert_model_name
-        else:
-            self._tokenizer = tokenizer or WordTokenizer()
-
+        self._tokenizer = tokenizer or WordTokenizer()
         self._token_indexers = token_indexers or {"tokens": SingleIdTokenIndexer()}
         self.labels = list()
 

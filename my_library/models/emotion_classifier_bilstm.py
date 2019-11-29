@@ -28,25 +28,28 @@ from allennlp.nn import InitializerApplicator, RegularizerApplicator
 from allennlp.nn import util
 from allennlp.training.metrics import CategoricalAccuracy
 from allennlp.training.metrics import F1Measure
+from transformers import BertModel
+
 
 import torch.nn as nn
 
 
-@Model.register("emotion_classifier_bilstm")
+@Model.register("emotion_classifier")
 class SarcasmClassifier(Model):
 
     def __init__(self, vocab: Vocabulary,
-                 text_field_embedder: TextFieldEmbedder,
                  quote_response_encoder: Seq2VecEncoder,
+                 classifier_feedforward: FeedForward,
+                 bert_model_name: str = None,
                  initializer: InitializerApplicator = InitializerApplicator(),
-                 regularizer: Optional[RegularizerApplicator] = None,
-                 # predict_mode: bool = False,
+                 regularizer: Optional[RegularizerApplicator] = None
                  ) -> None:
 
         super(SarcasmClassifier, self).__init__(vocab, regularizer)
 
-        self.text_field_embedder = text_field_embedder
         self.quote_response_encoder = quote_response_encoder
+        self.classifier_feedforward = classifier_feedforward
+        self.text_field_embedder = BertModel.from_pretrained(bert_model_name)
 
         self.num_classes_emotions = self.vocab.get_vocab_size("labels")
 
@@ -64,7 +67,8 @@ class SarcasmClassifier(Model):
                 F1Measure(positive_label=i)
 
         self.loss = torch.nn.CrossEntropyLoss()
-        self.linear = nn.Linear(200, self.num_classes_emotions)
+
+
 
 
         # self.attention_seq2seq = Attention(quote_response_encoder.get_output_dim())
@@ -77,24 +81,22 @@ class SarcasmClassifier(Model):
     def forward(self,
                 quote_response: Dict[str, torch.LongTensor],
                 label: torch.LongTensor = None) -> Dict[str, torch.Tensor]:
-        # print("num emotions. {}".format(self.num_classes_emotions))
-        # print("num classes. {}".format(self.num_classes))
-
-        quote_response_mask = util.get_text_field_mask(quote_response)
-
-        # shape: [batch, output_dim]
-
-
 
         if label is not None:
             # pylint: disable=arguments-differ
-            quote_response_embedding = self.text_field_embedder(quote_response)
-            quote_response_encoded = self.quote_response_encoder(quote_response_embedding, quote_response_mask)
+            reps, _ = self.text_field_embedder(quote_response['bert']) #,
+                # attention_mask=(qr != pad_tok_id).float()
+            #)  # [bs, seq_len, 768]
 
+            # print("after bert: {}\n{}".format(reps.size(),_.size()))
+            cls_rep = reps[:, 0]  # [bs, 768]
+            # print("cls: {}".format(cls_rep.size()))
             # shape: [batch, sent, output_dim]
-            logits = self.linear(quote_response_encoded)
+            encoded_quote_response = self.quote_response_encoder(cls_rep)
 
-            # print("quote: {} - logits: {}\n".format(quote_response_embedding.size(), logits.size()))
+            logits = self.classifier_feedforward(cls_rep)
+
+            # print("logits: {}\n".format(logits.size()))
             # print("label: {}\n".format(label.size()))
             class_probs = F.softmax(logits, dim=1)
             output_dict = {"logits": logits}
@@ -102,16 +104,16 @@ class SarcasmClassifier(Model):
             output_dict["loss"] = loss
             for i in range(self.num_classes_emotions):
                 metric = self.label_f1_metrics_emotions[self.vocab.get_token_from_index(index=i, namespace="labels")]
-                metric(logits.squeeze(-1), label.squeeze(-1))
+                metric(logits, label)
             for metric_name, metric in self.label_acc_metrics.items():
-                metric(logits.squeeze(-1), label.squeeze(-1))
+                metric(logits, label)
             output_dict['label'] = label
 
 
 #        if self.predict_mode:
 #            logits = self.classifier_feedforward(encoded_quote_response)
 #            class_probs = F.softmax(logits, dim=1)
-        output_dict['quote_response'] = quote_response['tokens']
+        output_dict['quote_response'] = quote_response['bert']
         return output_dict
 
     @overrides
@@ -154,22 +156,20 @@ class SarcasmClassifier(Model):
 
     @classmethod
     def from_params(cls, vocab: Vocabulary, params: Params) -> 'SarcasmClassifier':
-        embedder_params1 = params.pop("text_field_embedder")
-        text_field_embedder = TextFieldEmbedder.from_params(embedder_params1, vocab=vocab)
+        bert_model_name = params.pop("bert_model_name")
         quote_response_encoder = Seq2VecEncoder.from_params(params.pop("quote_response_encoder"))
-
+        classifier_feedforward = FeedForward.from_params(params.pop("classifier_feedforward"))
 
         initializer = InitializerApplicator.from_params(params.pop('initializer', []))
         regularizer = RegularizerApplicator.from_params(params.pop('regularizer', []))
-
-
 
         # predict_mode = params.pop_bool("predict_mode", False)
         # print(f"pred mode: {predict_mode}")
 
         return cls(vocab=vocab,
-                   text_field_embedder=text_field_embedder,
+                   bert_model_name=bert_model_name,
                    quote_response_encoder=quote_response_encoder,
+                   classifier_feedforward=classifier_feedforward,
                    initializer=initializer,
                    regularizer=regularizer)
 
