@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dadc96d5-1ae7-4238-8612-72b8a1ba3e1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my_library/models/previous.py" afterDir="false" />
+    <list default="true" id="dadc96d5-1ae7-4238-8612-72b8a1ba3e1f" name="Default Changelist" comment="transformers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/emoconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoconfigbilstm.json" beforeDir="false" afterPath="$PROJECT_DIR$/emoconfigbilstm.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_library/dataset_readers/emo_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_library/dataset_readers/emo_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_library/models/emotion_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_library/models/emotion_classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_library/models/emotion_classifier_bilstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_library/models/emotion_classifier_bilstm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,20 +15,20 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file pinned="false" current-in-tab="false">
+            <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/emoconfigbilstm.json">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="420">
-                    <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+                  <state relative-caret-position="254">
+                    <caret line="29" selection-start-line="29" selection-end-line="35" selection-end-column="5" />
                   </state>
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/my_library/models/sarcasm_classifier.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="122">
-                    <caret line="94" column="28" selection-start-line="94" selection-end-line="95" />
+                  <state relative-caret-position="125">
+                    <caret line="93" selection-start-line="93" selection-end-line="93" />
                     <folding>
                       <element signature="e#0#15#0" expanded="true" />
                     </folding>
@@ -51,75 +43,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emoresult/prova/metrics.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-928" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emoresult/prova3/metrics.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-928" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier.py">
+        <entry file="file://$PROJECT_DIR$/emoresult/prova3/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="164" column="24" lean-forward="true" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_library/models/main_task.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="25" column="52" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_library/dataset_readers/emo_reader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="74" selection-start-line="74" selection-end-line="75" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier_bilstm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="91" column="45" lean-forward="true" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/transfconfig.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result0/nomlt1/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            <state relative-caret-position="264">
+              <caret line="35" selection-start-line="35" selection-end-line="36" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -127,23 +69,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emoconfig.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="27" selection-start-line="27" selection-end-line="36" selection-end-column="3" />
+            <state relative-caret-position="315">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/emoresult/bilstm/metrics.json">
+        <entry file="file://$PROJECT_DIR$/my_library/training/transfer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-165" />
+            <state relative-caret-position="131">
+              <caret line="380" column="47" selection-start-line="380" selection-start-column="36" selection-end-line="380" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_library/training/vocabulary_multitask.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-28" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_library/training/train_multitask.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="422" column="17" selection-start-line="422" selection-start-column="17" selection-end-line="422" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emoresult/prova1/metrics.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-928" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emoresult/prova2/metrics.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-928" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emoresult/bilstmok/metrics.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-314" />
+            <state relative-caret-position="287">
+              <caret line="81" column="37" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="37" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -155,6 +131,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>model_state</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -176,8 +157,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="44" />
+    <option name="x" value="-16" />
+    <option name="y" value="25" />
     <option name="width" value="1110" />
     <option name="height" value="792" />
   </component>
@@ -197,13 +178,13 @@
             <path>
               <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
-              <item name="my_library" type="462c0819:PsiDirectoryNode" />
+              <item name="emoresult" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
-              <item name="my_library" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="emoresult" type="462c0819:PsiDirectoryNode" />
+              <item name="prova3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,6 +195,12 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/emoresult" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,11 +232,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574873377866</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="transformers">
+      <created>1575058307067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575058307067</updated>
+    </task>
+    <task id="LOCAL-00003" summary="transformers">
+      <created>1575228314458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575228314458</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="44" width="1110" height="792" extended-state="0" />
+    <frame x="-16" y="25" width="1110" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.32506886" />
@@ -336,25 +337,13 @@
         <state relative-caret-position="-165" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emoresult/bilstmok/metrics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emoconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="27" selection-start-line="27" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/transfconfig.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/result0/nomlt1/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -367,27 +356,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emoconfigbilstm.json">
+    <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier_bilstm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_library/models/sarcasm_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="94" column="28" selection-start-line="94" selection-end-line="95" />
+        <state relative-caret-position="624">
+          <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier_bilstm.py">
+    <entry file="file://$PROJECT_DIR$/my_library/models/sarcasm_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="91" column="45" lean-forward="true" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
+        <state relative-caret-position="125">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -396,11 +378,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="164" column="24" lean-forward="true" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
+        <state relative-caret-position="348">
+          <caret line="68" column="30" selection-start-line="68" selection-end-line="69" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emoresult/large/metrics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-890" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emoresult/bilstmok/metrics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="81" column="37" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emoconfigbilstm.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="29" selection-start-line="29" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emoconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_library/training/transfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="380" column="47" selection-start-line="380" selection-start-column="36" selection-end-line="380" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_library/training/vocabulary_multitask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_library/training/train_multitask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="422" column="17" selection-start-line="422" selection-start-column="17" selection-end-line="422" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emoresult/prova2/metrics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-928" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emoresult/prova1/metrics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-928" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emoresult/prova/metrics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-928" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emoresult/prova3/metrics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-928" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emoresult/prova3/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="35" selection-start-line="35" selection-end-line="36" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,12 @@
+Mean metrics for TransferNewBertBase:
+mean_validation_accuracy: 0.8234567901234568
+mean_validation_f1: 0.8270411218005582
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.5081716733899984
+mean_test_accuracy: 0.8148148148148149
+mean_test_f1: 0.8184119923444481
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.4558895858851346
+mean_test_avg_f1: 0.8145415762544783

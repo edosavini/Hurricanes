@@ -1,0 +1,12 @@
+Mean metrics for NewBertBase:
+mean_validation_accuracy: 0.8530864197530864
+mean_validation_f1: 0.8539832360594766
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.48512384789911184
+mean_test_accuracy: 0.8123456790123456
+mean_test_f1: 0.8073631347554899
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.5410271446813237
+mean_test_avg_f1: 0.8120154512914771
