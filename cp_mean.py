@@ -69,5 +69,5 @@ def _read(dir_path, dest):
 
 
 
-_read("emo", "mean_metrics.txt")
+_read("NewLarge", "mean_metrics.txt")
 
