@@ -1,0 +1,78 @@
+{
+  "random_seed": 21016,
+  "pytorch_seed": 2335,
+  "numpy_seed": 7005,
+  "mixing_ratio": 0.06,
+  "dataset_reader": {
+    "type": "hur_reader0",
+    "bert_model_name": "bert-large-uncased",
+    "token_indexers": {
+      "bert": {
+            "type": "bert-pretrained",
+            "pretrained_model": "bert-large-uncased"
+      }
+    }
+  },
+  "dataset_reader_aux": {
+    "type": "hur_reader_aux0",
+    "bert_model_name": "bert-large-uncased",
+    "token_indexers": {
+      "bert": {
+            "type": "bert-pretrained",
+            "pretrained_model": "bert-large-uncased"
+      }
+    }
+  },
+  "train_data_path": "data/Train1.json",
+  "train_data_path_aux": "data/Train1.json",
+  "validation_data_path": "data/Val1.json",
+  "test_data_path": "data/Test1.json",
+  "evaluate_on_test": true,
+  "model": {
+    "type": "emotion_classifier_bilstm",
+    "bert_model_name": "bert-large-uncased",
+    "quote_response_encoder": {
+        "type": "lstm",
+        "bidirectional": true,
+        "dropout": 0.2,
+        "hidden_size": 100,
+        "input_size": 1024,
+        "num_layers": 1
+    },
+    "classifier_feedforward": {
+      "activations": ["relu", "linear"],
+      "dropout": [0.2, 0],
+      "hidden_dims": [20, 2],
+      "input_dim": 200,
+      "num_layers": 2
+    },
+    "classifier_feedforward_2": {
+      "activations": ["relu", "linear"],
+      "dropout": [0.2, 0],
+      "hidden_dims": [20, 2],
+      "input_dim": 200,
+      "num_layers": 2
+    }
+  },
+  "iterator": {
+    "type": "bucket",
+    "sorting_keys": [["quote_response", "num_tokens"]],
+    "batch_size": 16
+  },
+  "iterator_aux": {
+    "type": "bucket",
+    "sorting_keys": [["quote_response", "num_tokens"]],
+    "batch_size": 16
+  },
+  "trainer": {
+    "num_epochs": 30,
+    "patience": 3,
+    "validation_metric": "+average_F1",
+    "cuda_device": 8,
+    "grad_clipping": 5,
+    "optimizer": {
+      "type": "adagrad",
+      "lr": 2e-5
+    }
+  }
+}
