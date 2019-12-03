@@ -1,0 +1,12 @@
+Mean metrics for TransferSNTMNTNewL:
+mean_validation_accuracy: 0.7802469135802468
+mean_validation_f1: 0.7033365434822627
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.48108309236439784
+mean_test_accuracy: 0.7703703703703704
+mean_test_f1: 0.6832818997226798
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.47209345251321794
+mean_test_avg_f1: 0.7409947723761228

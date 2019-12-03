@@ -64,11 +64,11 @@ class SarcasmClassifier(Model):
         self.label_f1_metrics = {}
         self.label_f1_metrics_emotions = {}
         for i in range(self.num_classes):
-            self.label_f1_metrics[vocab.get_token_from_index(index=i, namespace="label")] =\
+            self.label_f1_metrics[vocab.get_token_from_index(index=i, namespace="labels")] =\
                 F1Measure(positive_label=i)
 
         for i in range(self.num_classes_emotions):
-            self.label_f1_metrics_emotions[vocab.get_token_from_index(index=i, namespace="labels")] =\
+            self.label_f1_metrics_emotions[vocab.get_token_from_index(index=i, namespace="emotion_labels")] =\
                 F1Measure(positive_label=i)
 
         self.loss = torch.nn.CrossEntropyLoss()
@@ -103,8 +103,8 @@ class SarcasmClassifier(Model):
             output_dict = {"logits": logits}
             loss = self.loss(logits, label)
             output_dict["loss"] = loss
-            for i in range(self.num_classes_emotions):
-                metric = self.label_f1_metrics_emotions[self.vocab.get_token_from_index(index=i, namespace="labels")]
+            for i in range(self.num_classes):
+                metric = self.label_f1_metrics[self.vocab.get_token_from_index(index=i, namespace="labels")]
                 metric(logits, label)
             for metric_name, metric in self.label_acc_metrics.items():
                 metric(logits, label)
@@ -150,7 +150,7 @@ class SarcasmClassifier(Model):
     def get_metrics(self, reset: bool = False) -> Dict[str, float]:
         metric_dict = {}
         sum_f1 = 0.0
-        for name, metric in self.label_f1_metrics_emotions.items():
+        for name, metric in self.label_f1_metrics.items():
             metric_val = metric.get_metric(reset)
             # metric_dict[name + '_P'] = metric_val[0]
             # metric_dict[name + '_R'] = metric_val[1]
@@ -159,7 +159,7 @@ class SarcasmClassifier(Model):
                 sum_f1 += metric_val[2]
         for name, metric in self.label_acc_metrics.items():
             metric_dict[name] = metric.get_metric(reset)
-        names = list(self.label_f1_metrics_emotions.keys())
+        names = list(self.label_f1_metrics.keys())
         total_len = len(names) if 'none' not in names else len(names) - 1
         average_f1 = sum_f1 / total_len
         # metric_dict['combined_metric'] = (accuracy + average_f1) / 2
