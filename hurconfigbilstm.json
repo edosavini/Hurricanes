@@ -3,12 +3,12 @@
   "pytorch_seed": 2335,
   "numpy_seed": 7005,
   "dataset_reader": {
-    "type": "hur_reader_emo_0",
-    "bert_model_name": "bert-base-uncased",
+    "type": "hur_reader0",
+    "bert_model_name": "bert-large-uncased",
     "token_indexers": {
       "bert": {
             "type": "bert-pretrained",
-            "pretrained_model": "bert-base-uncased"
+            "pretrained_model": "bert-large-uncased"
       }
     }
   },
@@ -18,13 +18,13 @@
   "evaluate_on_test": true,
   "model": {
     "type": "emotion_classifier_bilstm_ff",
-    "bert_model_name": "bert-base-uncased",
+    "bert_model_name": "bert-large-uncased",
     "quote_response_encoder": {
         "type": "lstm",
         "bidirectional": true,
         "dropout": 0.2,
         "hidden_size": 100,
-        "input_size": 768,
+        "input_size": 1024,
         "num_layers": 1
     },
     "classifier_feedforward": {
@@ -44,10 +44,10 @@
     "num_epochs": 30,
     "patience": 3,
     "validation_metric": "+average_F1",
-    "cuda_device": 1,
+    "cuda_device": 3,
     "optimizer": {
-      "type": "adagrad",
-      "lr": 1e-4
+      "type": "adam",
+      "lr": 2e-5
     }
   }
 }

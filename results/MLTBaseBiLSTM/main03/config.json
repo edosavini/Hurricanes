@@ -1,0 +1,104 @@
+{
+    "dataset_reader": {
+        "type": "hur_reader0",
+        "bert_model_name": "bert-base-uncased",
+        "token_indexers": {
+            "bert": {
+                "type": "bert-pretrained",
+                "pretrained_model": "bert-base-uncased"
+            }
+        }
+    },
+    "iterator": {
+        "type": "bucket",
+        "batch_size": 16,
+        "sorting_keys": [
+            [
+                "quote_response",
+                "num_tokens"
+            ]
+        ]
+    },
+    "model": {
+        "type": "emotion_classifier_mlt",
+        "bert_model_name": "bert-base-uncased",
+        "classifier_feedforward": {
+            "activations": [
+                "relu",
+                "linear"
+            ],
+            "dropout": [
+                0.2,
+                0
+            ],
+            "hidden_dims": [
+                20,
+                2
+            ],
+            "input_dim": 200,
+            "num_layers": 2
+        },
+        "classifier_feedforward_2": {
+            "activations": [
+                "relu",
+                "linear"
+            ],
+            "dropout": [
+                0.2,
+                0
+            ],
+            "hidden_dims": [
+                20,
+                2
+            ],
+            "input_dim": 200,
+            "num_layers": 2
+        },
+        "quote_response_encoder": {
+            "type": "lstm",
+            "bidirectional": true,
+            "dropout": 0.2,
+            "hidden_size": 100,
+            "input_size": 768,
+            "num_layers": 1
+        },
+        "report_auxiliary_metrics": false
+    },
+    "train_data_path": "data/Train3.json",
+    "validation_data_path": "data/Val3.json",
+    "test_data_path": "data/Test3.json",
+    "trainer": {
+        "cuda_device": 5,
+        "grad_clipping": 5,
+        "num_epochs": 30,
+        "optimizer": {
+            "type": "adagrad",
+            "lr": 2e-05
+        },
+        "patience": 3,
+        "validation_metric": "+average_F1"
+    },
+    "dataset_reader_aux": {
+        "type": "hur_reader_aux0",
+        "bert_model_name": "bert-base-uncased",
+        "token_indexers": {
+            "bert": {
+                "type": "bert-pretrained",
+                "pretrained_model": "bert-base-uncased"
+            }
+        }
+    },
+    "evaluate_on_test": true,
+    "iterator_aux": {
+        "type": "bucket",
+        "batch_size": 16,
+        "sorting_keys": [
+            [
+                "quote_response",
+                "num_tokens"
+            ]
+        ]
+    },
+    "mixing_ratio": 0.06,
+    "train_data_path_aux": "data/Train3.json"
+}

@@ -3,7 +3,7 @@
   "pytorch_seed": 2335,
   "numpy_seed": 7005,
   "dataset_reader": {
-    "type": "hur_reader_emo_0",
+    "type": "hur_reader0",
     "bert_model_name": "bert-base-uncased",
     "token_indexers": {
       "bert": {
@@ -27,12 +27,13 @@
   },
   "trainer": {
     "num_epochs": 30,
+    "grad_clipping": 5.0,
     "patience": 3,
     "validation_metric": "+average_F1",
-    "cuda_device": 10,
+    "cuda_device": 6,
     "optimizer": {
-      "type": "adagrad",
-      "lr": 1e-4
+        "type": "adam",
+        "lr": 2e-05
     }
   }
 }
