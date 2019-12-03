@@ -1,11 +1,320 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dadc96d5-1ae7-4238-8612-72b8a1ba3e1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my_library/models/emotion_classifier_mlt.py" afterDir="false" />
+    <list default="true" id="dadc96d5-1ae7-4238-8612-72b8a1ba3e1f" name="Default Changelist" comment="results">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoconfigbilstmMLT.json" beforeDir="false" afterPath="$PROJECT_DIR$/emoconfigbilstmMLT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_library/models/emotion_classifier_bilstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_library/models/emotion_classifier_bilstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main01/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main01/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main01/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main01/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main01/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main01/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main01/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main01/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main01/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main01/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main01/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main01/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main01/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main01/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_11.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main02/metrics_epoch_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main02/metrics_epoch_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_11.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main03/metrics_epoch_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main03/metrics_epoch_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main04/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main04/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main04/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main04/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main04/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main04/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main04/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main04/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main04/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main04/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main04/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main04/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main04/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main04/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main04/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main04/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main04/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main04/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main04/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main04/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/main05/metrics_epoch_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/main05/metrics_epoch_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLTNewL/mean_metrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MLTLargeBiLSTM/mean_metrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/mean_metrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/mean_metrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_11.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer01/metrics_epoch_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer01/metrics_epoch_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics_epoch_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics_epoch_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer02/metrics_epoch_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer02/metrics_epoch_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_11.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer03/metrics_epoch_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer03/metrics_epoch_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer04/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer04/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer04/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer04/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer04/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer04/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer04/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer04/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer04/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer04/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer04/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer04/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer04/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer04/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer04/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer04/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer04/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer04/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer04/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer04/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer04/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer04/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferBU/transfer05/metrics_epoch_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferBU/transfer05/metrics_epoch_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/mean_metrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/mean_metrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer01/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer01/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer01/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer01/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer01/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer01/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer01/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer01/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer01/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer01/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer01/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer01/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer01/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer01/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer01/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer01/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer01/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer01/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer02/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer02/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer02/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer02/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer02/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer02/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer02/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer02/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer02/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer02/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer02/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer02/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer02/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer02/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_11.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_13.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_14.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer03/metrics_epoch_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer03/metrics_epoch_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer04/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer04/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer04/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer04/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer04/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer04/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer04/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer04/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer04/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer04/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer05/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer05/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer05/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer05/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer05/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer05/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer05/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer05/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer05/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer05/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer05/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer05/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer05/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer05/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer05/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer05/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer05/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer05/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer05/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer05/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferLU/transfer05/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferLU/transfer05/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main1noff/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main1noff/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main1noff/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main1noff/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main1noff/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main1noff/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main1noff/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main1noff/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main1noff/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main1noff/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main1noff/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main2noff/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main2noff/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main2noff/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main2noff/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main2noff/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main2noff/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main2noff/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main2noff/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main2noff/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main2noff/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main2noff/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main2noff/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main2noff/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main2noff/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main2noff/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main2noff/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main2noff/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main2noff/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main2noff/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main2noff/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main3noff/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt3/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main3noff/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main3noff/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main3noff/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main3noff/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main3noff/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main3noff/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main3noff/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main3noff/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main3noff/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main3noff/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main3noff/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main3noff/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main3noff/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main3noff/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main3noff/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main3noff/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main4noff/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt4/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main4noff/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main4noff/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main4noff/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main4noff/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main4noff/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main4noff/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main4noff/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main4noff/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main4noff/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main4noff/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main4noff/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main4noff/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main4noff/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main4noff/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main4noff/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main4noff/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main4noff/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main4noff/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt5/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics_epoch_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics_epoch_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/main5noff/metrics_epoch_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/metrics_epoch_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNT/mean_metrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/mean_metrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/01okok/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main1noff/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/01okok/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/01okok/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/01okok/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/01okok/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/01okok/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/01okok/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/01okok/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/01okok/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/02okok/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/02okok/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/02okok/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/02okok/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/02okok/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/02okok/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/02okok/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/02okok/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/02okok/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/02okok/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/02okok/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/02okok/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main3noff/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/03okok/metrics_epoch_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/metrics_epoch_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/04okok/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/04okok/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/04okok/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/04okok/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/04okok/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/04okok/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/04okok/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/04okok/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/04okok/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/04okok/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/04okok/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/04okok/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/04okok/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/04okok/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/05okok/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main5noff/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/05okok/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/05okok/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/05okok/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/05okok/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/05okok/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/05okok/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/05okok/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/05okok/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/05okok/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/05okok/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferSNTMNTnoff/mean_metrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/mean_metrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp_mean.py" beforeDir="false" afterPath="$PROJECT_DIR$/cp_mean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/mean_metrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/mean_metrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_11.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt1/metrics_epoch_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics_epoch_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt2/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt2/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt2/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt2/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt2/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt2/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt2/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt2/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt2/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt2/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt3/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/03okok/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt3/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt3/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt3/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt3/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt3/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt3/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt3/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt3/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt3/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt3/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt3/metrics_epoch_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt3/metrics_epoch_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt4/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNT/main4noff/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt4/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt4/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt4/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt4/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt4/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt4/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt4/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt4/metrics_epoch_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt4/metrics_epoch_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt4/metrics_epoch_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt5/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldTransferSNTMNTnoff/05okok/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt5/metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt5/metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt5/metrics_epoch_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt5/metrics_epoch_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt5/metrics_epoch_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt5/metrics_epoch_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result0/nomlt5/metrics_epoch_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/OldLargeBiLSTM/nomlt5/metrics_epoch_2.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +368,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/my_library/models/sarcasm_classifier_joined.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="504">
-                    <caret line="219" column="22" selection-start-line="219" selection-end-line="220" />
+                  <state relative-caret-position="244">
+                    <caret line="112" column="61" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="61" />
                     <folding>
                       <element signature="e#0#15#0" expanded="true" />
                     </folding>
@@ -80,7 +389,7 @@
               <entry file="file://$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader0.py">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="1478">
-                    <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+                    <caret line="102" selection-start-line="102" selection-end-line="102" />
                     <folding>
                       <element signature="e#0#23#0" expanded="true" />
                     </folding>
@@ -96,97 +405,77 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier.py">
+        <entry file="file://$PROJECT_DIR$/MLTBaseLinear/mean_metrics.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-525">
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier_bilstm.py">
+        <entry file="file://$PROJECT_DIR$/MLTBaseBiLSTM/mean_metrics.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
-              <caret line="99" column="20" selection-start-line="99" selection-end-line="100" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier_mlt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/transfconfig.json">
+        <entry file="file://$PROJECT_DIR$/MLTLargeBiLSTM/main02/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-637">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MLTLargeBiLSTM/mean_metrics.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/mean_metrics.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/emoconfig.json">
+        <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="-577" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/config.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-633" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OldTransferSNTMNT/main1noff/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-583">
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader_aux.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader_aux0.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/emoconfigbilstmMLT.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -230,7 +519,6 @@
         <option value="$PROJECT_DIR$/TransferNewLarge/01/metrics.json" />
         <option value="$PROJECT_DIR$/NewLargeBilstm/01ok/metrics.json" />
         <option value="$PROJECT_DIR$/NewLargeBilstm/04ok/metrics.json" />
-        <option value="$PROJECT_DIR$/cp_mean.py" />
         <option value="$PROJECT_DIR$/NewLarge/03no/metrics.json" />
         <option value="$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader_emo.py" />
         <option value="$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader_aux.py" />
@@ -238,12 +526,13 @@
         <option value="$PROJECT_DIR$/my_library/models/emotion_classifier_bilstm.py" />
         <option value="$PROJECT_DIR$/emoconfigbilstmMLT.json" />
         <option value="$PROJECT_DIR$/my_library/models/emotion_classifier_mlt.py" />
+        <option value="$PROJECT_DIR$/cp_mean.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="23" />
+    <option name="x" value="87" />
+    <option name="y" value="58" />
     <option name="width" value="1300" />
     <option name="height" value="792" />
   </component>
@@ -259,28 +548,6 @@
             <path>
               <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
-              <item name="MLT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
-              <item name="MLT" type="462c0819:PsiDirectoryNode" />
-              <item name="exp1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
-              <item name="my_library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
-              <item name="my_library" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,11 +566,11 @@
       <recent name="$PROJECT_DIR$/my_library/dataset_readers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NewLarge" />
-      <recent name="$PROJECT_DIR$/NewLargeBilstm" />
-      <recent name="$PROJECT_DIR$/NewBaseBilstm" />
-      <recent name="$PROJECT_DIR$/TransferNewBaseBilstm" />
-      <recent name="$PROJECT_DIR$/TransferNewLarge" />
+      <recent name="$PROJECT_DIR$/mltsmall" />
+      <recent name="$PROJECT_DIR$/mltlinearB" />
+      <recent name="$PROJECT_DIR$/MLTNewL" />
+      <recent name="$PROJECT_DIR$/TransferSNTMNTNewBFF" />
+      <recent name="$PROJECT_DIR$/TransferSNTMNTNewB" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -399,7 +666,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575330704803</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="results">
+      <created>1575331395550</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575331395550</updated>
+    </task>
+    <task id="LOCAL-00008" summary="results">
+      <created>1575369915983</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575369915983</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -412,15 +693,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="430" y="23" width="1300" height="792" extended-state="0" />
-    <editor active="true" />
+    <frame x="87" y="58" width="1300" height="792" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.27677873" />
       <window_info id="Structure" order="1" sideWeight="0.5010661" side_tool="true" weight="0.32506886" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,79 +720,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="results" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TransferSNTMNT/main1noff/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-724" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewBaseBilstm/05/metrics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewBaseBilstm/04/metrics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferLU/mean_metrics.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emobilstm/mean_metrics.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emo/mean_metrics.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emo/01ok/metrics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emo/01ok/config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result0/mean_metrics.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result0/nomlt1/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1303" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewLarge/01/metrics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewLargeBilstm/01/metrics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewLargeBilstm/02/metrics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewLarge/02/metrics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewLargeBilstm/03/metrics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TransferNewLarge/03/metrics.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-568" />
@@ -551,10 +758,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransferSNTMNT/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/OldTransferSNTMNT/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransferSNTMNTnoff/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/OldTransferSNTMNTnoff/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/my_library/training/train_multitask.py">
@@ -632,20 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewLarge/mean_metrics.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewLargeBilstm/mean_metrics.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TransferNewLarge/04/metrics.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-568" />
@@ -660,13 +853,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/transfconfig.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emoconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -691,7 +877,7 @@
     <entry file="file://$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1478">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -701,7 +887,7 @@
     <entry file="file://$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader_aux0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
-          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -715,26 +901,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MLT/exp1/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-274">
           <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emoconfigbilstmMLT.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -748,23 +918,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_library/models/sarcasm_classifier_joined.py">
+    <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier_mlt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="219" column="22" selection-start-line="219" selection-end-line="220" />
+        <state relative-caret-position="-373">
+          <caret line="161" column="42" selection-start-line="161" selection-start-column="42" selection-end-line="161" selection-end-column="42" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier_mlt.py">
+    <entry file="file://$PROJECT_DIR$/emoconfigbilstmMLT.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+        <state relative-caret-position="-347">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emoconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_library/models/emotion_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="71" selection-start-line="67" selection-start-column="8" selection-end-line="71" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cp_mean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TransferSNTMNTNewB/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TransferSNTMNTNewBFF/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TransferSNTMNTNewL/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewLargeBilstm/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewLarge/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TransferSNTMNTNewLFF/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLTBaseLinear/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLTBaseBiLSTM/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLTLargeBiLSTM/main02/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-637">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLTLargeBiLSTM/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_library/models/sarcasm_classifier_joined.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="112" column="61" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-633" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OldTransferSNTMNT/main1noff/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583">
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
