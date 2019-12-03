@@ -196,16 +196,16 @@ class SarcasmClassifier(Model):
             sum_f1 = 0.0
             for name, metric in self.label_f1_metrics_emotions.items():
                 metric_val = metric.get_metric(reset)
-                metric_dict['aux-emo--' + name + '_P'] = metric_val[0]
-                metric_dict['aux-emo--' + name + '_R'] = metric_val[1]
-                metric_dict['aux-emo--' + name + '_F1'] = metric_val[2]
+                metric_dict['aux-OldTransferEmo--' + name + '_P'] = metric_val[0]
+                metric_dict['aux-OldTransferEmo--' + name + '_R'] = metric_val[1]
+                metric_dict['aux-OldTransferEmo--' + name + '_F1'] = metric_val[2]
                 if name != 'none':  # do not consider `none` label in averaging F1
                     sum_f1 += metric_val[2]
             names = list(self.label_f1_metrics_emotions.keys())
             total_len = len(names) if 'none' not in names else len(names) - 1
             average_f1 = sum_f1 / total_len
             # metric_dict['combined_metric'] = (accuracy + average_f1) / 2
-            metric_dict['aux-emo--' + 'average_F1'] = average_f1
+            metric_dict['aux-OldTransferEmo--' + 'average_F1'] = average_f1
 
 
         return metric_dict
