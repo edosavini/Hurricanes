@@ -440,7 +440,7 @@ class MultiTaskTrainer:
 
     def _batch_loss(self, batch: torch.Tensor, for_training: bool, batch_aux: torch.Tensor=None) -> torch.Tensor:
         """
-        Does a forward pass on the given batch and returns the ``loss`` value in the MLT.
+        Does a forward pass on the given batch and returns the ``loss`` value in the OldMLT.
         If ``for_training`` is `True` also applies regularization penalty.
         """
         if self._multiple_gpu:

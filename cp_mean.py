@@ -46,16 +46,16 @@ def _read(dir_path, dest):
                 result = json.load(jsonfile)
                 voc["mean_validation_accuracy"] += result["best_validation_accuracy"]
                 voc["mean_validation_f1"] += result["best_validation_1_F1"]
-                # voc["mean_validation_precision"] += MLT["best_validation_1_P"]
-                # voc["mean_validation_recall"] += MLT["best_validation_1_R"]
+                # voc["mean_validation_precision"] += OldMLT["best_validation_1_P"]
+                # voc["mean_validation_recall"] += OldMLT["best_validation_1_R"]
                 voc["mean_validation_loss"] += result["best_validation_loss"]
                 voc["mean_test_accuracy"] += result["test_accuracy"]
                 voc["mean_test_f1"] += result["test_1_F1"]
                 print(path)
                 print(result["test_1_F1"])
                 voc["mean_test_avg_f1"] += result["test_average_F1"]
-                # voc["mean_test_precision"] += MLT["test_1_R"]
-                # voc["mean_test_recall"] += MLT["test_1_R"]
+                # voc["mean_test_precision"] += OldMLT["test_1_R"]
+                # voc["mean_test_recall"] += OldMLT["test_1_R"]
                 voc["mean_test_loss"] += result["test_loss"]
 
     outfile = open(dest, 'wt')
@@ -69,5 +69,5 @@ def _read(dir_path, dest):
 
 
 
-_read("MLTBaseBiLSTM", "mean_metrics.txt")
+_read("MLTLargeLinear", "mean_metrics.txt")
 

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dadc96d5-1ae7-4238-8612-72b8a1ba3e1f" name="Default Changelist" comment="" />
+    <list default="true" id="dadc96d5-1ae7-4238-8612-72b8a1ba3e1f" name="Default Changelist" comment="results">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp_mean.py" beforeDir="false" afterPath="$PROJECT_DIR$/cp_mean.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/emoconfigbilstm.json">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="780">
-                    <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+                  <state relative-caret-position="795">
+                    <caret line="53" selection-start-line="53" selection-end-line="53" />
                   </state>
                 </provider>
               </entry>
@@ -43,7 +46,7 @@
         <state>
           <leaf>
             <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/MLT/exp1/config.json">
+              <entry file="file://$PROJECT_DIR$/results/MLT/exp1/config.json">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="-274">
                     <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
@@ -91,77 +94,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MLTBaseLinear/mean_metrics.txt">
+        <entry file="file://$PROJECT_DIR$/results/OldTransferSNTMNT/main1noff/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
-            </state>
+            <state relative-caret-position="-583" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MLTBaseBiLSTM/mean_metrics.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MLTLargeBiLSTM/main02/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-637">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MLTLargeBiLSTM/mean_metrics.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/mean_metrics.txt">
+        <entry file="file://$PROJECT_DIR$/results/OldTransferEmoBilstm/mean_metrics.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-577" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/config.json">
+        <entry file="file://$PROJECT_DIR$/results/OldTransferEmo/mean_metrics.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/config.json">
+        <entry file="file://$PROJECT_DIR$/results/OldTransferEmo/01ok/metrics.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cp_mean.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-633" />
+            <state relative-caret-position="182">
+              <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+            </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MLTLargeLinear/main01/metrics.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OldTransferSNTMNT/main1noff/config.json">
+        <entry file="file://$PROJECT_DIR$/MLTLargeLinear/main03/metrics.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-583">
-              <caret lean-forward="true" />
+            <state relative-caret-position="172">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics.json">
+        <entry file="file://$PROJECT_DIR$/MLTLargeLinear/main03/metrics_epoch_6.json">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MLTLargeLinear/main03/metrics_epoch_8.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MLTLargeLinear/main03/metrics_epoch_7.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="45" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -213,6 +206,7 @@
         <option value="$PROJECT_DIR$/emoconfigbilstmMLT.json" />
         <option value="$PROJECT_DIR$/my_library/models/emotion_classifier_mlt.py" />
         <option value="$PROJECT_DIR$/cp_mean.py" />
+        <option value="$PROJECT_DIR$/MLTLargeLinear/main03/metrics.json" />
       </list>
     </option>
   </component>
@@ -235,6 +229,17 @@
               <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
+              <item name="MLTLargeLinear" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
+              <item name="MLTLargeLinear" type="462c0819:PsiDirectoryNode" />
+              <item name="main03" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -252,11 +257,11 @@
       <recent name="$PROJECT_DIR$/my_library/dataset_readers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/results" />
       <recent name="$PROJECT_DIR$/mltsmall" />
       <recent name="$PROJECT_DIR$/mltlinearB" />
       <recent name="$PROJECT_DIR$/MLTNewL" />
       <recent name="$PROJECT_DIR$/TransferSNTMNTNewBFF" />
-      <recent name="$PROJECT_DIR$/TransferSNTMNTNewB" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,7 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575385065886</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="results">
+      <created>1575385641563</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575385641563</updated>
+    </task>
+    <task id="LOCAL-00011" summary="results">
+      <created>1575385728794</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575385728794</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -387,13 +406,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="87" y="58" width="1300" height="792" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.27677873" />
       <window_info id="Structure" order="1" sideWeight="0.5010661" side_tool="true" weight="0.32506886" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,50 +433,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="results" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TransferNewLarge/03/metrics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewLarge/01/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewBaseBilstm/01/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-643" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewLargeBilstm/01/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-573" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewLargeBilstm/01ok/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_library/training/commands.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OldTransferSNTMNT/mean_metrics.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OldTransferSNTMNTnoff/mean_metrics.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_library/training/train_multitask.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -471,73 +447,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emoresult/prova/metrics.json">
+    <entry file="file://$PROJECT_DIR$/emoresult/provaBESTBase/metrics.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="81" column="36" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emoresult/prova/config.json">
+    <entry file="file://$PROJECT_DIR$/emoresult/provaBESTBase/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-46" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emoresult/prova3/metrics.json">
+    <entry file="file://$PROJECT_DIR$/emoresult/prova3BESTLarge/metrics.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="81" column="35" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewBertBase/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/NewBertBase/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewBertBase/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/TransferNewBertBase/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewBaseBilstm/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/TransferNewBaseBilstm/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewLarge/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/TransferNewLarge/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewLargeBilstm/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/TransferNewLargeBilstm/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewBaseBilstm/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/NewBaseBilstm/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewLarge/04/metrics.json">
+    <entry file="file://$PROJECT_DIR$/results/TransferNewLarge/04/metrics.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-568" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransferNewLarge/04/config.json">
+    <entry file="file://$PROJECT_DIR$/results/TransferNewLarge/04/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
@@ -589,12 +565,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/emoconfigbilstm.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        <state relative-caret-position="795">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLT/exp1/config.json">
+    <entry file="file://$PROJECT_DIR$/results/MLT/exp1/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-274">
           <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
@@ -645,77 +621,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cp_mean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransferSNTMNTNewB/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/TransferSNTMNTNewB/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransferSNTMNTNewBFF/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/TransferSNTMNTNewBFF/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransferSNTMNTNewL/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/TransferSNTMNTNewL/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewLargeBilstm/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/NewLargeBilstm/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewLarge/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/NewLarge/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransferSNTMNTNewLFF/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/TransferSNTMNTNewLFF/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLTBaseLinear/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/MLTBaseLinear/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLTBaseBiLSTM/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/MLTBaseBiLSTM/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLTLargeBiLSTM/main02/config.json">
+    <entry file="file://$PROJECT_DIR$/results/MLTLargeBiLSTM/main02/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-637">
           <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLTLargeBiLSTM/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/MLTLargeBiLSTM/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="38" />
@@ -732,29 +701,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/results/OldLargeBiLSTM/mean_metrics.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/metrics.json">
+    <entry file="file://$PROJECT_DIR$/results/OldLargeBiLSTM/nomlt1/metrics.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-577" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OldLargeBiLSTM/nomlt1/config.json">
+    <entry file="file://$PROJECT_DIR$/results/OldLargeBiLSTM/nomlt1/config.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/OldTransferSNTMNTnoff/01okok/config.json">
+    <entry file="file://$PROJECT_DIR$/results/OldTransferSNTMNTnoff/01okok/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-633" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OldTransferSNTMNT/main1noff/metrics.json">
+    <entry file="file://$PROJECT_DIR$/results/OldTransferSNTMNT/main1noff/metrics.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/OldTransferSNTMNT/main1noff/config.json">
+    <entry file="file://$PROJECT_DIR$/results/OldTransferSNTMNT/main1noff/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-583">
-          <caret lean-forward="true" />
+        <state relative-caret-position="-583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/OldTransferEmoBilstm/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/OldTransferEmo/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/OldTransferEmo/01ok/metrics.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cp_mean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLTLargeLinear/main01/metrics.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLTLargeLinear/main03/metrics_epoch_6.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLTLargeLinear/main03/metrics_epoch_8.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLTLargeLinear/main03/metrics_epoch_7.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLTLargeLinear/main03/metrics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
         </state>
       </provider>
     </entry>
