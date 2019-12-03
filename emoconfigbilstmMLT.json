@@ -29,8 +29,9 @@
   "test_data_path": "data/Test1.json",
   "evaluate_on_test": true,
   "model": {
-    "type": "emotion_classifier_bilstm",
+    "type": "emotion_classifier_mlt",
     "bert_model_name": "bert-large-uncased",
+    "report_auxiliary_metrics": false,
     "quote_response_encoder": {
         "type": "lstm",
         "bidirectional": true,
