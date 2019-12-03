@@ -8,7 +8,7 @@ from overrides import overrides
 from allennlp.data.tokenizers.token import Token
 from allennlp.common.file_utils import cached_path
 from allennlp.data.dataset_readers.dataset_reader import DatasetReader
-from allennlp.data.fields import LabelField, TextField, M
+from allennlp.data.fields import LabelField, TextField
 from allennlp.data.instance import Instance
 from allennlp.data.tokenizers import Tokenizer, WordTokenizer
 from allennlp.data.token_indexers import TokenIndexer, SingleIdTokenIndexer
@@ -25,7 +25,7 @@ class EmotionDatasetReader(DatasetReader):
     def __init__(self,
                  lazy: bool = False,
                  tokenizer: Tokenizer = None,
-                 seq_len: int = 256,
+                 seq_len: int = 512,
                  bert_model_name: str = None,
                  token_indexers: Dict[str, TokenIndexer] = None) -> None:
         super().__init__(lazy)
@@ -64,27 +64,27 @@ class EmotionDatasetReader(DatasetReader):
         for w in response:
             tokenized_response.append(Token(w))
 
-        print("QR : {}\n".format(tokenized_response))
+        # print("QR : {}\n".format(tokenized_response))
 
-        token_ids = self._tokenizer.encode(tokenized_response)#, add_special_tokens=True)
-        print("token ids 0: {}\n".format(token_ids))
+        token_ids = self._tokenizer.encode(response) # add_special_tokens=True)
+        # print("token ids 0: {}\n".format(token_ids))
 
         token_ids_len = len(token_ids)
-        print("token ids len: {}\n".format(token_ids_len))
+        # print("token ids len: {}\n".format(token_ids_len))
 
         rspace = self.seq_len - token_ids_len  # <= args.seq_len
         token_ids = np.pad(token_ids, (0, rspace), 'constant',
                            constant_values=self._tokenizer.pad_token_id).tolist()
-        print("cosa strana: {}\n".format(self._tokenizer.pad_token_id))
-        print("token ids 1: {}\n".format(token_ids))
+        # print("cosa strana: {}\n".format(self._tokenizer.pad_token_id))
+        # print("token ids 1: {}\n".format(token_ids))
         response_field = torch.tensor(token_ids) # .long()
-        print("QR field: {}\n".format(response_field))
+        # print("QR field: {}\n".format(response_field))
 
         # len = torch.tensor(token_ids_len).long()
         # quote_response_field = TextField(tokenized_quote_response, self._token_indexers)
         # response_field = TextField(tokenized_response, self._token_indexers)
         rf = TextField(tokenized_response, self._token_indexers)
-        print("QR field ok: {}\n".format(rf))
+        # print("QR field ok: {}\n".format(rf))
         # len = torch.tensor(token_ids_len).long()
         # quote_response_field = TextField(tokenized_quote_response, self._token_indexers)
         # response_field = TextField(tokenized_response, self._token_indexers)

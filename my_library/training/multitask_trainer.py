@@ -440,7 +440,7 @@ class MultiTaskTrainer:
 
     def _batch_loss(self, batch: torch.Tensor, for_training: bool, batch_aux: torch.Tensor=None) -> torch.Tensor:
         """
-        Does a forward pass on the given batch and returns the ``loss`` value in the OldMLT.
+        Does a forward pass on the given batch and returns the ``loss`` value in the result.
         If ``for_training`` is `True` also applies regularization penalty.
         """
         if self._multiple_gpu:
@@ -914,6 +914,9 @@ class MultiTaskTrainer:
             model_path = os.path.join(self._serialization_dir, "model_state_epoch_{}.th".format(epoch))
             model_state = self._model.state_dict()
             torch.save(model_state, model_path)
+            if epoch > 0:
+                model_path_to_delete = os.path.join(self._serialization_dir, "model_state_epoch_{}.th".format(epoch-1))
+                os.remove(model_path_to_delete)
 
             training_state = {'epoch': epoch,
                               'val_metric_per_epoch': val_metric_per_epoch,
@@ -925,6 +928,10 @@ class MultiTaskTrainer:
             training_path = os.path.join(self._serialization_dir,
                                          "training_state_epoch_{}.th".format(epoch))
             torch.save(training_state, training_path)
+            if epoch > 0:
+                training_path_to_delete = os.path.join(self._serialization_dir, "training_state_epoch_{}.th".format(epoch-1))
+                os.remove(training_path_to_delete)
+
             if is_best:
                 logger.info("Best validation performance so far. "
                             "Copying weights to '%s/best.th'.", self._serialization_dir)

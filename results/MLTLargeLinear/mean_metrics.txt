@@ -1,0 +1,12 @@
+Mean metrics for MLTLargeLinear:
+mean_validation_accuracy: 0.837037037037037
+mean_validation_f1: 0.8397418562169273
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.3914316868240183
+mean_test_accuracy: 0.7975308641975308
+mean_test_f1: 0.7920004688232037
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.4233608730814674
+mean_test_avg_f1: 0.7972609355658811

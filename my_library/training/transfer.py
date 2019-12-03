@@ -303,12 +303,16 @@ def train_model(params: Params,
     model = Model.from_params(vocab=vocab, params=params.pop('model'))
 
 ############################################################################################################################################
-    prev_state_dict = torch.load("model/weights.th", map_location='cpu')
+    prev_state_dict = torch.load("/home/ubuntu/Hurricanes/model/best.th", map_location='cpu')
     for n, p in model.named_parameters():
         if (
                 n in prev_state_dict
                 and n != 'linear.weight'
                 and n != 'linear.bias'
+                and n != 'classifier_feedforward._linear_layers.1.weight'
+                and n != 'classifier_feedforward._linear_layers.1.bias'
+                and n != 'classifier_feedforward._linear_layers.0.weight'
+                and n != 'classifier_feedforward._linear_layers.0.bias'
         ):
             w = prev_state_dict[n]
             p.data.copy_(w.data)
