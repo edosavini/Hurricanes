@@ -69,5 +69,5 @@ def _read(dir_path, dest):
 
 
 
-_read("MLTLargeLinear", "mean_metrics.txt")
+_read("ElmoBilstm", "mean_metrics.txt")
 

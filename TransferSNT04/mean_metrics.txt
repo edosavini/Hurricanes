@@ -1,0 +1,12 @@
+Mean metrics for TransferSNT04:
+mean_validation_accuracy: 0.9012345679012345
+mean_validation_f1: 0.8992420985589821
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.2985597328706221
+mean_test_accuracy: 0.7987654320987654
+mean_test_f1: 0.7977808598313891
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.4761498383500359
+mean_test_avg_f1: 0.7986738726367879

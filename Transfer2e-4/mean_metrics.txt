@@ -1,0 +1,12 @@
+Mean metrics for Transfer2e-4:
+mean_validation_accuracy: 0.882716049382716
+mean_validation_f1: 0.8812305103381893
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.37959410805593835
+mean_test_accuracy: 0.8407407407407407
+mean_test_f1: 0.8418110908039503
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.39866928512399846
+mean_test_avg_f1: 0.8405970530055583

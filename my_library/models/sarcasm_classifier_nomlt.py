@@ -77,13 +77,11 @@ class SarcasmClassifier(Model):
                 label: torch.LongTensor = None,
                 emotion_labels: Optional[torch.LongTensor] = None) -> Dict[str, torch.Tensor]:
         # print("num emotions. {}".format(self.num_classes_emotions))
-        print("QR: {}".format(quote_response))
 
         quote_response_mask = util.get_text_field_mask(quote_response)
         # pylint: disable=arguments-differ
         quote_response_embedding = self.text_field_embedder(quote_response)
         # shape: [batch, sent, output_dim]
-        print("QR_EMB: {}".format(quote_response_embedding))
         encoded_quote_response = self.quote_response_encoder(quote_response_embedding, quote_response_mask)
         # shape: [batch, output_dim]
 
@@ -176,5 +174,6 @@ class SarcasmClassifier(Model):
                    initializer=initializer,
                    regularizer=regularizer,
                    predict_mode=predict_mode)
+
 
 

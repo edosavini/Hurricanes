@@ -25,17 +25,10 @@ class SarcasmDatasetReader(DatasetReader):
     def __init__(self,
                  lazy: bool = False,
                  tokenizer: Tokenizer = None,
-                 seq_len: int = 512,
-                 bert_model_name: str = None,
                  token_indexers: Dict[str, TokenIndexer] = None) -> None:
         super().__init__(lazy)
-        if bert_model_name:
-            self._tokenizer = BertTokenizer.from_pretrained(bert_model_name)
-            # self.lowercase_input = "uncased" in bert_model_name
-        else:
-            self._tokenizer = tokenizer or WordTokenizer()
+        self._tokenizer = tokenizer or WordTokenizer()
         self._token_indexers = token_indexers or {"tokens": SingleIdTokenIndexer()}
-        self.seq_len = seq_len
         self.labels = list()
 
     @overrides
@@ -68,33 +61,12 @@ class SarcasmDatasetReader(DatasetReader):
     @overrides
     def text_to_instance(self, response: str, label: str = None) -> Instance:
 
-        # tokens = tokenizer.tokenize(text)[:args.seq_len - 2]
-        response = self._tokenizer.tokenize(response)
-        tokenized_response = []
-        for w in response:
-            tokenized_response.append(Token(w))
-        print("QR : {}\ntype : {}".format(tokenized_response, len(tokenized_response)))
-
-        token_ids = self._tokenizer.encode(response, add_special_tokens=True)
-        print("token ids 0: {}\n".format(token_ids))
-
-        token_ids_len = len(token_ids)
-        print("token ids len: {}\n".format(token_ids_len))
-
-        rspace = self.seq_len - token_ids_len  # <= args.seq_len
-        token_ids = np.pad(token_ids, (0, rspace), 'constant',
-                           constant_values=self._tokenizer.pad_token_id).tolist()
-        print("cosa strana: {}\n".format(self._tokenizer.pad_token_id))
-        print("token ids 1: {}\n".format(token_ids))
-        response_field = torch.tensor(token_ids).long() # .long()
-        print("QR field: {}\n".format(response_field))
-        rf = TextField(tokenized_response, self._token_indexers)
-        # len = torch.tensor(token_ids_len).long()
-        # quote_response_field = TextField(tokenized_quote_response, self._token_indexers)
+        tokenized_quote_response = self._tokenizer.tokenize(response)  # (quote + " " + response)
+        # tokenized_response = self._tokenizer.tokenize(response)
+        quote_response_field = TextField(tokenized_quote_response, self._token_indexers)
         # response_field = TextField(tokenized_response, self._token_indexers)
 
-        metadata = {'quote_response': response_field, 'pad_token_id': self._tokenizer.pad_token_id } #, 'alllabels': alllabels_field}
-        fields = {'quote_response': rf, 'metadata':MetadataField(metadata)}
+        fields = {'quote_response': quote_response_field }#, 'alllabels': alllabels_field}
         if label is not None:
             fields['label'] = LabelField(label)
         return Instance(fields)
