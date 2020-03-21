@@ -1,0 +1,12 @@
+Mean metrics for :
+mean_validation_accuracy: 0.8444444444444443
+mean_validation_f1: 0.8458167107225723
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.42433735267682504
+mean_test_accuracy: 0.825925925925926
+mean_test_f1: 0.8284876259512899
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.45270888859575437
+mean_test_avg_f1: 0.8258561760553743

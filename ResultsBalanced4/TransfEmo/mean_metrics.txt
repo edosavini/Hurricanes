@@ -1,0 +1,12 @@
+Mean metrics for 6e5:
+mean_validation_accuracy: 0.8024691358024691
+mean_validation_f1: 0.7993539414708783
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.4676531486890534
+mean_test_accuracy: 0.8604938271604938
+mean_test_f1: 0.8596091685894496
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.369142991846258
+mean_test_avg_f1: 0.8603648078739662
