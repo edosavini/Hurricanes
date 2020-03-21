@@ -303,7 +303,7 @@ def train_model(params: Params,
     model = Model.from_params(vocab=vocab, params=params.pop('model'))
 
 ############################################################################################################################################
-    prev_state_dict = torch.load("/home/ubuntu/Hurricanes/model/best.th", map_location='cpu')
+    prev_state_dict = torch.load("/home/ubuntu/Hurricanes/model/bestS.th", map_location='cpu')
     for n, p in model.named_parameters():
         if (
                 n in prev_state_dict

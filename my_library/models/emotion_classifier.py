@@ -144,8 +144,8 @@ class SarcasmClassifier(Model):
         sum_f1 = 0.0
         for name, metric in self.label_f1_metrics_emotions.items():
             metric_val = metric.get_metric(reset)
-            # metric_dict[name + '_P'] = metric_val[0]
-            # metric_dict[name + '_R'] = metric_val[1]
+            metric_dict[name + '_P'] = metric_val[0]
+            metric_dict[name + '_R'] = metric_val[1]
             metric_dict[name + '_F1'] = metric_val[2]
             if name != 'none':  # do not consider `none` label in averaging F1
                 sum_f1 += metric_val[2]
