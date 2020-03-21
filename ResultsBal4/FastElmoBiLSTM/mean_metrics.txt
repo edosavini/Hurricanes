@@ -1,0 +1,12 @@
+Mean metrics for FastElmoBilstm:
+mean_validation_accuracy: 0.8555555555555555
+mean_validation_f1: 0.8598526055327753
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.4577561876990578
+mean_test_accuracy: 0.8111111111111111
+mean_test_f1: 0.8162821166382812
+mean_test_precision: 0.7948394778725325
+mean_test_recall: 0.8395061728395061
+mean_test_loss: 0.5655908238481391
+mean_test_avg_f1: 0.8108847532801498

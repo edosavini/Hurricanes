@@ -1,0 +1,12 @@
+Mean metrics for TransferSNT02:
+mean_validation_accuracy: 0.9
+mean_validation_f1: 0.8976087788366464
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.3471377098424868
+mean_test_accuracy: 0.7839506172839507
+mean_test_f1: 0.7792871449745123
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.486983208493753
+mean_test_avg_f1: 0.7838397477641719

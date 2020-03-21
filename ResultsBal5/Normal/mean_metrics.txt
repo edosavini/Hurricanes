@@ -1,0 +1,12 @@
+Mean metrics for Normal:
+mean_validation_accuracy: 0.8716049382716049
+mean_validation_f1: 0.8707385101113699
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.334112429076975
+mean_test_accuracy: 0.7987654320987654
+mean_test_f1: 0.7875282600562588
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.44549625854600566
+mean_test_avg_f1: 0.7980715526443088

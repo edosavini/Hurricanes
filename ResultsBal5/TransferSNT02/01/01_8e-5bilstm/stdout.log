@@ -1,0 +1,771 @@
+2019-12-03 23:27:48,542 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.dataset_readers.dataset_reader.DatasetReader'> from params {'bert_model_name': 'bert-base-uncased', 'token_indexers': {'bert': {'pretrained_model': 'bert-base-uncased', 'type': 'bert-pretrained'}}, 'type': 'hur_reader0'} and extras {}
+2019-12-03 23:27:48,542 - INFO - allennlp.common.params - dataset_reader.type = hur_reader0
+2019-12-03 23:27:48,542 - INFO - allennlp.common.from_params - instantiating class <class 'my_library.dataset_readers.hurricanes_reader0.SarcasmDatasetReader'> from params {'bert_model_name': 'bert-base-uncased', 'token_indexers': {'bert': {'pretrained_model': 'bert-base-uncased', 'type': 'bert-pretrained'}}} and extras {}
+2019-12-03 23:27:48,542 - INFO - allennlp.common.params - dataset_reader.lazy = False
+2019-12-03 23:27:48,542 - INFO - allennlp.common.params - dataset_reader.seq_len = 256
+2019-12-03 23:27:48,543 - INFO - allennlp.common.params - dataset_reader.bert_model_name = bert-base-uncased
+2019-12-03 23:27:48,543 - INFO - allennlp.common.from_params - instantiating class allennlp.data.token_indexers.token_indexer.TokenIndexer from params {'pretrained_model': 'bert-base-uncased', 'type': 'bert-pretrained'} and extras {}
+2019-12-03 23:27:48,543 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.type = bert-pretrained
+2019-12-03 23:27:48,543 - INFO - allennlp.common.from_params - instantiating class allennlp.data.token_indexers.wordpiece_indexer.PretrainedBertIndexer from params {'pretrained_model': 'bert-base-uncased'} and extras {}
+2019-12-03 23:27:48,543 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.pretrained_model = bert-base-uncased
+2019-12-03 23:27:48,543 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.use_starting_offsets = False
+2019-12-03 23:27:48,543 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.do_lowercase = True
+2019-12-03 23:27:48,543 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.never_lowercase = None
+2019-12-03 23:27:48,544 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.max_pieces = 512
+2019-12-03 23:27:48,619 - INFO - pytorch_pretrained_bert.tokenization - loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/ubuntu/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-12-03 23:27:48,794 - INFO - transformers.tokenization_utils - loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/ubuntu/.cache/torch/transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-12-03 23:27:48,824 - INFO - allennlp.common.params - validation_dataset_reader = None
+2019-12-03 23:27:48,824 - INFO - allennlp.common.params - train_data_path = data/Train5.json
+2019-12-03 23:27:48,824 - INFO - my_library.training.transfer - Reading training data from data/Train5.json
+2019-12-03 23:27:48,825 - INFO - my_library.dataset_readers.hurricanes_reader0 - Reading instances from lines in file at: data/Train5.json
+2019-12-03 23:27:50,011 - INFO - allennlp.common.params - validation_data_path = data/Val5.json
+2019-12-03 23:27:50,011 - INFO - my_library.training.transfer - Reading validation data from data/Val5.json
+2019-12-03 23:27:50,011 - INFO - my_library.dataset_readers.hurricanes_reader0 - Reading instances from lines in file at: data/Val5.json
+2019-12-03 23:27:50,139 - INFO - allennlp.common.params - test_data_path = data/Test5.json
+2019-12-03 23:27:50,139 - INFO - my_library.training.transfer - Reading test data from data/Test5.json
+2019-12-03 23:27:50,139 - INFO - my_library.dataset_readers.hurricanes_reader0 - Reading instances from lines in file at: data/Test5.json
+2019-12-03 23:27:50,266 - INFO - my_library.training.transfer - From dataset instances, test, validation, train will be considered for vocabulary creation.
+2019-12-03 23:27:50,266 - INFO - allennlp.common.params - vocabulary.type = None
+2019-12-03 23:27:50,266 - INFO - allennlp.common.params - vocabulary.extend = False
+2019-12-03 23:27:50,266 - INFO - allennlp.common.params - vocabulary.directory_path = None
+2019-12-03 23:27:50,266 - INFO - allennlp.common.params - vocabulary.min_count = None
+2019-12-03 23:27:50,266 - INFO - allennlp.common.params - vocabulary.max_vocab_size = None
+2019-12-03 23:27:50,266 - INFO - allennlp.common.params - vocabulary.non_padded_namespaces = ('*tags', '*labels')
+2019-12-03 23:27:50,267 - INFO - allennlp.common.params - vocabulary.min_pretrained_embeddings = None
+2019-12-03 23:27:50,267 - INFO - allennlp.common.params - vocabulary.only_include_pretrained_words = False
+2019-12-03 23:27:50,267 - INFO - allennlp.common.params - vocabulary.tokens_to_add = None
+2019-12-03 23:27:50,267 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+2019-12-03 23:27:50,280 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.models.model.Model'> from params {'bert_model_name': 'bert-base-uncased', 'classifier_feedforward': {'activations': ['relu', 'linear'], 'dropout': [0.2, 0], 'hidden_dims': [20, 2], 'input_dim': 200, 'num_layers': 2}, 'quote_response_encoder': {'bidirectional': True, 'dropout': 0.2, 'hidden_size': 100, 'input_size': 768, 'num_layers': 1, 'type': 'lstm'}, 'type': 'emotion_classifier_bilstm_ff'} and extras {'vocab': <allennlp.data.vocabulary.Vocabulary object at 0x7f8a2b874cf8>}
+2019-12-03 23:27:50,280 - INFO - allennlp.common.params - model.type = emotion_classifier_bilstm_ff
+2019-12-03 23:27:50,281 - INFO - allennlp.common.params - model.bert_model_name = bert-base-uncased
+2019-12-03 23:27:50,281 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.modules.seq2vec_encoders.seq2vec_encoder.Seq2VecEncoder'> from params {'bidirectional': True, 'dropout': 0.2, 'hidden_size': 100, 'input_size': 768, 'num_layers': 1, 'type': 'lstm'} and extras {}
+2019-12-03 23:27:50,281 - INFO - allennlp.common.params - model.quote_response_encoder.type = lstm
+2019-12-03 23:27:50,281 - INFO - allennlp.common.params - model.quote_response_encoder.batch_first = True
+2019-12-03 23:27:50,281 - INFO - allennlp.common.params - Converting Params object to dict; logging of default values will not occur when dictionary parameters are used subsequently.
+2019-12-03 23:27:50,281 - INFO - allennlp.common.params - CURRENTLY DEFINED PARAMETERS: 
+2019-12-03 23:27:50,281 - INFO - allennlp.common.params - model.quote_response_encoder.bidirectional = True
+2019-12-03 23:27:50,281 - INFO - allennlp.common.params - model.quote_response_encoder.dropout = 0.2
+2019-12-03 23:27:50,281 - INFO - allennlp.common.params - model.quote_response_encoder.hidden_size = 100
+2019-12-03 23:27:50,282 - INFO - allennlp.common.params - model.quote_response_encoder.input_size = 768
+2019-12-03 23:27:50,282 - INFO - allennlp.common.params - model.quote_response_encoder.num_layers = 1
+2019-12-03 23:27:50,282 - INFO - allennlp.common.params - model.quote_response_encoder.batch_first = True
+2019-12-03 23:27:50,288 - INFO - allennlp.common.params - model.classifier_feedforward.input_dim = 200
+2019-12-03 23:27:50,288 - INFO - allennlp.common.params - model.classifier_feedforward.num_layers = 2
+2019-12-03 23:27:50,288 - INFO - allennlp.common.params - model.classifier_feedforward.hidden_dims = [20, 2]
+2019-12-03 23:27:50,288 - INFO - allennlp.common.params - model.classifier_feedforward.activations = ['relu', 'linear']
+2019-12-03 23:27:50,288 - INFO - allennlp.common.params - model.classifier_feedforward.dropout = [0.2, 0]
+2019-12-03 23:27:50,289 - INFO - allennlp.common.params - model.initializer = []
+2019-12-03 23:27:50,289 - INFO - allennlp.common.params - model.regularizer = []
+2019-12-03 23:27:50,359 - INFO - transformers.configuration_utils - loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /home/ubuntu/.cache/torch/transformers/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.bf3b9ea126d8c0001ee8a1e8b92229871d06d36d8808208cc2449280da87785c
+2019-12-03 23:27:50,359 - INFO - transformers.configuration_utils - Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 2,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30522
+}
+
+2019-12-03 23:27:50,722 - INFO - transformers.modeling_utils - loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /home/ubuntu/.cache/torch/transformers/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+2019-12-03 23:27:53,284 - INFO - allennlp.nn.initializers - Initializing parameters
+2019-12-03 23:27:53,285 - INFO - allennlp.nn.initializers - Done initializing parameters; the following parameters are using their default initialization from their code
+2019-12-03 23:27:53,285 - INFO - allennlp.nn.initializers -    classifier_feedforward._linear_layers.0.bias
+2019-12-03 23:27:53,285 - INFO - allennlp.nn.initializers -    classifier_feedforward._linear_layers.0.weight
+2019-12-03 23:27:53,285 - INFO - allennlp.nn.initializers -    classifier_feedforward._linear_layers.1.bias
+2019-12-03 23:27:53,285 - INFO - allennlp.nn.initializers -    classifier_feedforward._linear_layers.1.weight
+2019-12-03 23:27:53,285 - INFO - allennlp.nn.initializers -    quote_response_encoder._module.bias_hh_l0
+2019-12-03 23:27:53,285 - INFO - allennlp.nn.initializers -    quote_response_encoder._module.bias_hh_l0_reverse
+2019-12-03 23:27:53,285 - INFO - allennlp.nn.initializers -    quote_response_encoder._module.bias_ih_l0
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    quote_response_encoder._module.bias_ih_l0_reverse
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    quote_response_encoder._module.weight_hh_l0
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    quote_response_encoder._module.weight_hh_l0_reverse
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    quote_response_encoder._module.weight_ih_l0
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    quote_response_encoder._module.weight_ih_l0_reverse
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    text_field_embedder.embeddings.LayerNorm.bias
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    text_field_embedder.embeddings.LayerNorm.weight
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    text_field_embedder.embeddings.position_embeddings.weight
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    text_field_embedder.embeddings.token_type_embeddings.weight
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    text_field_embedder.embeddings.word_embeddings.weight
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.attention.output.dense.bias
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.attention.output.dense.weight
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.attention.self.key.bias
+2019-12-03 23:27:53,286 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.attention.self.key.weight
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.attention.self.query.bias
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.attention.self.query.weight
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.attention.self.value.bias
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.attention.self.value.weight
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.intermediate.dense.bias
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.intermediate.dense.weight
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.output.LayerNorm.bias
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.output.LayerNorm.weight
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.output.dense.bias
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.0.output.dense.weight
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.attention.output.dense.bias
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.attention.output.dense.weight
+2019-12-03 23:27:53,287 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.attention.self.key.bias
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.attention.self.key.weight
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.attention.self.query.bias
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.attention.self.query.weight
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.attention.self.value.bias
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.attention.self.value.weight
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.intermediate.dense.bias
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.intermediate.dense.weight
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.output.LayerNorm.bias
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.output.LayerNorm.weight
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.output.dense.bias
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.1.output.dense.weight
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.attention.output.dense.bias
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.attention.output.dense.weight
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.attention.self.key.bias
+2019-12-03 23:27:53,288 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.attention.self.key.weight
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.attention.self.query.bias
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.attention.self.query.weight
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.attention.self.value.bias
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.attention.self.value.weight
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.intermediate.dense.bias
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.intermediate.dense.weight
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.output.LayerNorm.bias
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.output.LayerNorm.weight
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.output.dense.bias
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.10.output.dense.weight
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.attention.output.dense.bias
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.attention.output.dense.weight
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.attention.self.key.bias
+2019-12-03 23:27:53,289 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.attention.self.key.weight
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.attention.self.query.bias
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.attention.self.query.weight
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.attention.self.value.bias
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.attention.self.value.weight
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.intermediate.dense.bias
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.intermediate.dense.weight
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.output.LayerNorm.bias
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.output.LayerNorm.weight
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.output.dense.bias
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.11.output.dense.weight
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.attention.output.dense.bias
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.attention.output.dense.weight
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.attention.self.key.bias
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.attention.self.key.weight
+2019-12-03 23:27:53,290 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.attention.self.query.bias
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.attention.self.query.weight
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.attention.self.value.bias
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.attention.self.value.weight
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.intermediate.dense.bias
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.intermediate.dense.weight
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.output.LayerNorm.bias
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.output.LayerNorm.weight
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.output.dense.bias
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.2.output.dense.weight
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.attention.output.dense.bias
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.attention.output.dense.weight
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.attention.self.key.bias
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.attention.self.key.weight
+2019-12-03 23:27:53,291 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.attention.self.query.bias
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.attention.self.query.weight
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.attention.self.value.bias
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.attention.self.value.weight
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.intermediate.dense.bias
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.intermediate.dense.weight
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.output.LayerNorm.bias
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.output.LayerNorm.weight
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.output.dense.bias
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.3.output.dense.weight
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.attention.output.dense.bias
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.attention.output.dense.weight
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.attention.self.key.bias
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.attention.self.key.weight
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.attention.self.query.bias
+2019-12-03 23:27:53,292 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.attention.self.query.weight
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.attention.self.value.bias
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.attention.self.value.weight
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.intermediate.dense.bias
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.intermediate.dense.weight
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.output.LayerNorm.bias
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.output.LayerNorm.weight
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.output.dense.bias
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.4.output.dense.weight
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.attention.output.dense.bias
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.attention.output.dense.weight
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.attention.self.key.bias
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.attention.self.key.weight
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.attention.self.query.bias
+2019-12-03 23:27:53,293 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.attention.self.query.weight
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.attention.self.value.bias
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.attention.self.value.weight
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.intermediate.dense.bias
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.intermediate.dense.weight
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.output.LayerNorm.bias
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.output.LayerNorm.weight
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.output.dense.bias
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.5.output.dense.weight
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.attention.output.dense.bias
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.attention.output.dense.weight
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.attention.self.key.bias
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.attention.self.key.weight
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.attention.self.query.bias
+2019-12-03 23:27:53,294 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.attention.self.query.weight
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.attention.self.value.bias
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.attention.self.value.weight
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.intermediate.dense.bias
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.intermediate.dense.weight
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.output.LayerNorm.bias
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.output.LayerNorm.weight
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.output.dense.bias
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.6.output.dense.weight
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.attention.output.dense.bias
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.attention.output.dense.weight
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.attention.self.key.bias
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.attention.self.key.weight
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.attention.self.query.bias
+2019-12-03 23:27:53,295 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.attention.self.query.weight
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.attention.self.value.bias
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.attention.self.value.weight
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.intermediate.dense.bias
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.intermediate.dense.weight
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.output.LayerNorm.bias
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.output.LayerNorm.weight
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.output.dense.bias
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.7.output.dense.weight
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.attention.output.dense.bias
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.attention.output.dense.weight
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.attention.self.key.bias
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.attention.self.key.weight
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.attention.self.query.bias
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.attention.self.query.weight
+2019-12-03 23:27:53,296 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.attention.self.value.bias
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.attention.self.value.weight
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.intermediate.dense.bias
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.intermediate.dense.weight
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.output.LayerNorm.bias
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.output.LayerNorm.weight
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.output.dense.bias
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.8.output.dense.weight
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.attention.output.dense.bias
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.attention.output.dense.weight
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.attention.self.key.bias
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.attention.self.key.weight
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.attention.self.query.bias
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.attention.self.query.weight
+2019-12-03 23:27:53,297 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.attention.self.value.bias
+2019-12-03 23:27:53,298 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.attention.self.value.weight
+2019-12-03 23:27:53,298 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.intermediate.dense.bias
+2019-12-03 23:27:53,298 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.intermediate.dense.weight
+2019-12-03 23:27:53,298 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.output.LayerNorm.bias
+2019-12-03 23:27:53,298 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.output.LayerNorm.weight
+2019-12-03 23:27:53,298 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.output.dense.bias
+2019-12-03 23:27:53,298 - INFO - allennlp.nn.initializers -    text_field_embedder.encoder.layer.9.output.dense.weight
+2019-12-03 23:27:53,298 - INFO - allennlp.nn.initializers -    text_field_embedder.pooler.dense.bias
+2019-12-03 23:27:53,298 - INFO - allennlp.nn.initializers -    text_field_embedder.pooler.dense.weight
+2019-12-03 23:27:53,705 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.iterators.data_iterator.DataIterator'> from params {'batch_size': 16, 'sorting_keys': [['quote_response', 'num_tokens']], 'type': 'bucket'} and extras {}
+2019-12-03 23:27:53,705 - INFO - allennlp.common.params - iterator.type = bucket
+2019-12-03 23:27:53,706 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.iterators.bucket_iterator.BucketIterator'> from params {'batch_size': 16, 'sorting_keys': [['quote_response', 'num_tokens']]} and extras {}
+2019-12-03 23:27:53,706 - INFO - allennlp.common.params - iterator.sorting_keys = [['quote_response', 'num_tokens']]
+2019-12-03 23:27:53,706 - INFO - allennlp.common.params - iterator.padding_noise = 0.1
+2019-12-03 23:27:53,706 - INFO - allennlp.common.params - iterator.biggest_batch_first = False
+2019-12-03 23:27:53,706 - INFO - allennlp.common.params - iterator.batch_size = 16
+2019-12-03 23:27:53,706 - INFO - allennlp.common.params - iterator.instances_per_epoch = None
+2019-12-03 23:27:53,706 - INFO - allennlp.common.params - iterator.max_instances_in_memory = None
+2019-12-03 23:27:53,707 - INFO - allennlp.common.params - iterator.cache_instances = False
+2019-12-03 23:27:53,707 - INFO - allennlp.common.params - iterator.track_epoch = False
+2019-12-03 23:27:53,707 - INFO - allennlp.common.params - iterator.maximum_samples_per_batch = None
+2019-12-03 23:27:53,707 - INFO - allennlp.common.params - validation_iterator = None
+2019-12-03 23:27:53,707 - INFO - allennlp.common.params - trainer.no_grad = ()
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - Following parameters are Frozen  (without gradient):
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - Following parameters are Tunable (with gradient):
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - quote_response_encoder._module.weight_ih_l0
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - quote_response_encoder._module.weight_hh_l0
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - quote_response_encoder._module.bias_ih_l0
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - quote_response_encoder._module.bias_hh_l0
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - quote_response_encoder._module.weight_ih_l0_reverse
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - quote_response_encoder._module.weight_hh_l0_reverse
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - quote_response_encoder._module.bias_ih_l0_reverse
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - quote_response_encoder._module.bias_hh_l0_reverse
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - classifier_feedforward._linear_layers.0.weight
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - classifier_feedforward._linear_layers.0.bias
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - classifier_feedforward._linear_layers.1.weight
+2019-12-03 23:27:53,709 - INFO - my_library.training.transfer - classifier_feedforward._linear_layers.1.bias
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.embeddings.word_embeddings.weight
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.embeddings.position_embeddings.weight
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.embeddings.token_type_embeddings.weight
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.embeddings.LayerNorm.weight
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.embeddings.LayerNorm.bias
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.attention.self.query.weight
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.attention.self.query.bias
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.attention.self.key.weight
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.attention.self.key.bias
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.attention.self.value.weight
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.attention.self.value.bias
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.attention.output.dense.weight
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.attention.output.dense.bias
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.intermediate.dense.weight
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.intermediate.dense.bias
+2019-12-03 23:27:53,710 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.output.dense.weight
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.output.dense.bias
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.output.LayerNorm.weight
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.0.output.LayerNorm.bias
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.attention.self.query.weight
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.attention.self.query.bias
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.attention.self.key.weight
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.attention.self.key.bias
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.attention.self.value.weight
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.attention.self.value.bias
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.attention.output.dense.weight
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.attention.output.dense.bias
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.intermediate.dense.weight
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.intermediate.dense.bias
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.output.dense.weight
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.output.dense.bias
+2019-12-03 23:27:53,711 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.output.LayerNorm.weight
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.1.output.LayerNorm.bias
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.attention.self.query.weight
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.attention.self.query.bias
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.attention.self.key.weight
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.attention.self.key.bias
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.attention.self.value.weight
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.attention.self.value.bias
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.attention.output.dense.weight
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.attention.output.dense.bias
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.intermediate.dense.weight
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.intermediate.dense.bias
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.output.dense.weight
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.output.dense.bias
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.output.LayerNorm.weight
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.2.output.LayerNorm.bias
+2019-12-03 23:27:53,712 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.attention.self.query.weight
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.attention.self.query.bias
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.attention.self.key.weight
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.attention.self.key.bias
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.attention.self.value.weight
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.attention.self.value.bias
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.attention.output.dense.weight
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.attention.output.dense.bias
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.intermediate.dense.weight
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.intermediate.dense.bias
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.output.dense.weight
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.output.dense.bias
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.output.LayerNorm.weight
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.3.output.LayerNorm.bias
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.attention.self.query.weight
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.attention.self.query.bias
+2019-12-03 23:27:53,713 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.attention.self.key.weight
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.attention.self.key.bias
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.attention.self.value.weight
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.attention.self.value.bias
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.attention.output.dense.weight
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.attention.output.dense.bias
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.intermediate.dense.weight
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.intermediate.dense.bias
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.output.dense.weight
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.output.dense.bias
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.output.LayerNorm.weight
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.4.output.LayerNorm.bias
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.attention.self.query.weight
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.attention.self.query.bias
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.attention.self.key.weight
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.attention.self.key.bias
+2019-12-03 23:27:53,714 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.attention.self.value.weight
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.attention.self.value.bias
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.attention.output.dense.weight
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.attention.output.dense.bias
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.intermediate.dense.weight
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.intermediate.dense.bias
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.output.dense.weight
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.output.dense.bias
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.output.LayerNorm.weight
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.5.output.LayerNorm.bias
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.attention.self.query.weight
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.attention.self.query.bias
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.attention.self.key.weight
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.attention.self.key.bias
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.attention.self.value.weight
+2019-12-03 23:27:53,715 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.attention.self.value.bias
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.attention.output.dense.weight
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.attention.output.dense.bias
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.intermediate.dense.weight
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.intermediate.dense.bias
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.output.dense.weight
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.output.dense.bias
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.output.LayerNorm.weight
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.6.output.LayerNorm.bias
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.attention.self.query.weight
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.attention.self.query.bias
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.attention.self.key.weight
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.attention.self.key.bias
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.attention.self.value.weight
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.attention.self.value.bias
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.attention.output.dense.weight
+2019-12-03 23:27:53,716 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.attention.output.dense.bias
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.intermediate.dense.weight
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.intermediate.dense.bias
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.output.dense.weight
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.output.dense.bias
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.output.LayerNorm.weight
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.7.output.LayerNorm.bias
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.attention.self.query.weight
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.attention.self.query.bias
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.attention.self.key.weight
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.attention.self.key.bias
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.attention.self.value.weight
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.attention.self.value.bias
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.attention.output.dense.weight
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.attention.output.dense.bias
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,717 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.intermediate.dense.weight
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.intermediate.dense.bias
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.output.dense.weight
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.output.dense.bias
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.output.LayerNorm.weight
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.8.output.LayerNorm.bias
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.attention.self.query.weight
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.attention.self.query.bias
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.attention.self.key.weight
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.attention.self.key.bias
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.attention.self.value.weight
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.attention.self.value.bias
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.attention.output.dense.weight
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.attention.output.dense.bias
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.intermediate.dense.weight
+2019-12-03 23:27:53,718 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.intermediate.dense.bias
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.output.dense.weight
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.output.dense.bias
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.output.LayerNorm.weight
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.9.output.LayerNorm.bias
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.attention.self.query.weight
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.attention.self.query.bias
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.attention.self.key.weight
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.attention.self.key.bias
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.attention.self.value.weight
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.attention.self.value.bias
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.attention.output.dense.weight
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.attention.output.dense.bias
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.intermediate.dense.weight
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.intermediate.dense.bias
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.output.dense.weight
+2019-12-03 23:27:53,719 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.output.dense.bias
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.output.LayerNorm.weight
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.10.output.LayerNorm.bias
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.attention.self.query.weight
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.attention.self.query.bias
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.attention.self.key.weight
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.attention.self.key.bias
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.attention.self.value.weight
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.attention.self.value.bias
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.attention.output.dense.weight
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.attention.output.dense.bias
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.attention.output.LayerNorm.weight
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.attention.output.LayerNorm.bias
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.intermediate.dense.weight
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.intermediate.dense.bias
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.output.dense.weight
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.output.dense.bias
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.output.LayerNorm.weight
+2019-12-03 23:27:53,720 - INFO - my_library.training.transfer - text_field_embedder.encoder.layer.11.output.LayerNorm.bias
+2019-12-03 23:27:53,721 - INFO - my_library.training.transfer - text_field_embedder.pooler.dense.weight
+2019-12-03 23:27:53,721 - INFO - my_library.training.transfer - text_field_embedder.pooler.dense.bias
+2019-12-03 23:27:53,721 - INFO - allennlp.common.params - trainer.type = default
+2019-12-03 23:27:53,721 - INFO - allennlp.common.params - trainer.patience = 3
+2019-12-03 23:27:53,721 - INFO - allennlp.common.params - trainer.validation_metric = +average_F1
+2019-12-03 23:27:53,721 - INFO - allennlp.common.params - trainer.shuffle = True
+2019-12-03 23:27:53,721 - INFO - allennlp.common.params - trainer.num_epochs = 30
+2019-12-03 23:27:53,721 - INFO - allennlp.common.params - trainer.cuda_device = 1
+2019-12-03 23:27:53,721 - INFO - allennlp.common.params - trainer.grad_norm = None
+2019-12-03 23:27:53,721 - INFO - allennlp.common.params - trainer.grad_clipping = None
+2019-12-03 23:27:53,721 - INFO - allennlp.common.params - trainer.learning_rate_scheduler = None
+2019-12-03 23:27:56,968 - INFO - allennlp.common.params - trainer.optimizer.type = adam
+2019-12-03 23:27:56,968 - INFO - allennlp.common.params - trainer.optimizer.parameter_groups = None
+2019-12-03 23:27:56,968 - INFO - allennlp.training.optimizers - Number of trainable parameters: 110182302
+2019-12-03 23:27:56,970 - INFO - allennlp.common.params - Converting Params object to dict; logging of default values will not occur when dictionary parameters are used subsequently.
+2019-12-03 23:27:56,971 - INFO - allennlp.common.params - CURRENTLY DEFINED PARAMETERS: 
+2019-12-03 23:27:56,971 - INFO - allennlp.common.params - trainer.optimizer.lr = 8e-05
+2019-12-03 23:27:56,971 - INFO - allennlp.common.params - trainer.num_serialized_models_to_keep = 20
+2019-12-03 23:27:56,971 - INFO - allennlp.common.params - trainer.keep_serialized_model_every_num_seconds = None
+2019-12-03 23:27:56,971 - INFO - allennlp.common.params - trainer.model_save_interval = None
+2019-12-03 23:27:56,971 - INFO - allennlp.common.params - trainer.summary_interval = 100
+2019-12-03 23:27:56,971 - INFO - allennlp.common.params - trainer.histogram_interval = None
+2019-12-03 23:27:56,971 - INFO - allennlp.common.params - trainer.should_log_parameter_statistics = True
+2019-12-03 23:27:56,971 - INFO - allennlp.common.params - trainer.should_log_learning_rate = False
+2019-12-03 23:27:56,971 - INFO - allennlp.common.params - trainer.log_batch_size_period = None
+2019-12-03 23:27:56,976 - INFO - allennlp.common.params - evaluate_on_test = True
+2019-12-03 23:27:56,976 - INFO - allennlp.training.trainer - Beginning training.
+2019-12-03 23:27:56,976 - INFO - allennlp.training.trainer - Epoch 0/29
+2019-12-03 23:27:56,976 - INFO - allennlp.training.trainer - Peak CPU memory usage MB: 3114.816
+2019-12-03 23:27:57,280 - INFO - allennlp.training.trainer - GPU 0 memory usage MB: 11
+2019-12-03 23:27:57,280 - INFO - allennlp.training.trainer - GPU 1 memory usage MB: 796
+2019-12-03 23:27:57,280 - INFO - allennlp.training.trainer - GPU 2 memory usage MB: 11
+2019-12-03 23:27:57,280 - INFO - allennlp.training.trainer - GPU 3 memory usage MB: 11
+2019-12-03 23:27:57,280 - INFO - allennlp.training.trainer - GPU 4 memory usage MB: 11
+2019-12-03 23:27:57,280 - INFO - allennlp.training.trainer - GPU 5 memory usage MB: 11
+2019-12-03 23:27:57,280 - INFO - allennlp.training.trainer - GPU 6 memory usage MB: 11
+2019-12-03 23:27:57,281 - INFO - allennlp.training.trainer - GPU 7 memory usage MB: 11
+2019-12-03 23:27:57,281 - INFO - allennlp.training.trainer - GPU 8 memory usage MB: 11
+2019-12-03 23:27:57,281 - INFO - allennlp.training.trainer - GPU 9 memory usage MB: 11
+2019-12-03 23:27:57,281 - INFO - allennlp.training.trainer - GPU 10 memory usage MB: 11
+2019-12-03 23:27:57,281 - INFO - allennlp.training.trainer - GPU 11 memory usage MB: 11
+2019-12-03 23:27:57,281 - INFO - allennlp.training.trainer - GPU 12 memory usage MB: 11
+2019-12-03 23:27:57,281 - INFO - allennlp.training.trainer - GPU 13 memory usage MB: 11
+2019-12-03 23:27:57,281 - INFO - allennlp.training.trainer - GPU 14 memory usage MB: 11
+2019-12-03 23:27:57,281 - INFO - allennlp.training.trainer - GPU 15 memory usage MB: 11
+2019-12-03 23:27:57,282 - INFO - allennlp.training.trainer - Training
+2019-12-03 23:28:23,824 - INFO - allennlp.training.trainer - Validating
+2019-12-03 23:28:24,826 - INFO - allennlp.training.trainer -                      Training |  Validation
+2019-12-03 23:28:24,826 - INFO - allennlp.training.trainer - gpu_3_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:24,826 - INFO - allennlp.training.trainer - gpu_10_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:24,826 - INFO - allennlp.training.trainer - cpu_memory_MB    |  3114.816  |       N/A
+2019-12-03 23:28:24,826 - INFO - allennlp.training.trainer - gpu_15_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:24,826 - INFO - allennlp.training.trainer - gpu_6_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:24,826 - INFO - allennlp.training.trainer - accuracy         |     0.744  |     0.852
+2019-12-03 23:28:24,826 - INFO - allennlp.training.trainer - average_F1       |     0.744  |     0.852
+2019-12-03 23:28:24,826 - INFO - allennlp.training.trainer - gpu_12_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - gpu_13_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - 1_F1             |     0.757  |     0.850
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - loss             |     0.558  |     0.392
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - gpu_0_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - gpu_8_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - gpu_1_memory_MB  |   796.000  |       N/A
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - gpu_14_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - gpu_9_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - gpu_5_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - gpu_7_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - gpu_4_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - gpu_11_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:24,827 - INFO - allennlp.training.trainer - gpu_2_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:24,828 - INFO - allennlp.training.trainer - 0_F1             |     0.730  |     0.854
+2019-12-03 23:28:26,127 - INFO - allennlp.training.trainer - Best validation performance so far. Copying weights to 'TransferSNT/01_8e-5bilstm/best.th'.
+2019-12-03 23:28:26,612 - INFO - allennlp.training.trainer - Epoch duration: 00:00:29
+2019-12-03 23:28:26,612 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:14:19
+2019-12-03 23:28:26,612 - INFO - allennlp.training.trainer - Epoch 1/29
+2019-12-03 23:28:26,612 - INFO - allennlp.training.trainer - Peak CPU memory usage MB: 3114.816
+2019-12-03 23:28:26,903 - INFO - allennlp.training.trainer - GPU 0 memory usage MB: 11
+2019-12-03 23:28:26,907 - INFO - allennlp.training.trainer - GPU 1 memory usage MB: 3442
+2019-12-03 23:28:26,907 - INFO - allennlp.training.trainer - GPU 2 memory usage MB: 11
+2019-12-03 23:28:26,907 - INFO - allennlp.training.trainer - GPU 3 memory usage MB: 11
+2019-12-03 23:28:26,907 - INFO - allennlp.training.trainer - GPU 4 memory usage MB: 11
+2019-12-03 23:28:26,907 - INFO - allennlp.training.trainer - GPU 5 memory usage MB: 11
+2019-12-03 23:28:26,907 - INFO - allennlp.training.trainer - GPU 6 memory usage MB: 11
+2019-12-03 23:28:26,907 - INFO - allennlp.training.trainer - GPU 7 memory usage MB: 11
+2019-12-03 23:28:26,908 - INFO - allennlp.training.trainer - GPU 8 memory usage MB: 11
+2019-12-03 23:28:26,908 - INFO - allennlp.training.trainer - GPU 9 memory usage MB: 11
+2019-12-03 23:28:26,908 - INFO - allennlp.training.trainer - GPU 10 memory usage MB: 11
+2019-12-03 23:28:26,908 - INFO - allennlp.training.trainer - GPU 11 memory usage MB: 11
+2019-12-03 23:28:26,908 - INFO - allennlp.training.trainer - GPU 12 memory usage MB: 11
+2019-12-03 23:28:26,908 - INFO - allennlp.training.trainer - GPU 13 memory usage MB: 11
+2019-12-03 23:28:26,908 - INFO - allennlp.training.trainer - GPU 14 memory usage MB: 11
+2019-12-03 23:28:26,908 - INFO - allennlp.training.trainer - GPU 15 memory usage MB: 11
+2019-12-03 23:28:26,909 - INFO - allennlp.training.trainer - Training
+2019-12-03 23:28:53,288 - INFO - allennlp.training.trainer - Validating
+2019-12-03 23:28:54,286 - INFO - allennlp.training.trainer -                      Training |  Validation
+2019-12-03 23:28:54,287 - INFO - allennlp.training.trainer - gpu_3_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:54,287 - INFO - allennlp.training.trainer - gpu_10_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:54,287 - INFO - allennlp.training.trainer - cpu_memory_MB    |  3114.816  |       N/A
+2019-12-03 23:28:54,287 - INFO - allennlp.training.trainer - gpu_15_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:54,287 - INFO - allennlp.training.trainer - gpu_6_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:54,287 - INFO - allennlp.training.trainer - accuracy         |     0.856  |     0.790
+2019-12-03 23:28:54,287 - INFO - allennlp.training.trainer - average_F1       |     0.856  |     0.785
+2019-12-03 23:28:54,287 - INFO - allennlp.training.trainer - gpu_12_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - gpu_13_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - 1_F1             |     0.858  |     0.819
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - loss             |     0.386  |     0.521
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - gpu_0_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - gpu_8_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - gpu_1_memory_MB  |  3442.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - gpu_14_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - gpu_9_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - gpu_5_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - gpu_7_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - gpu_4_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - gpu_11_memory_MB |    11.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - gpu_2_memory_MB  |    11.000  |       N/A
+2019-12-03 23:28:54,288 - INFO - allennlp.training.trainer - 0_F1             |     0.854  |     0.750
+2019-12-03 23:28:55,783 - INFO - allennlp.training.trainer - Epoch duration: 00:00:29
+2019-12-03 23:28:55,783 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:13:43
+2019-12-03 23:28:55,783 - INFO - allennlp.training.trainer - Epoch 2/29
+2019-12-03 23:28:55,783 - INFO - allennlp.training.trainer - Peak CPU memory usage MB: 3114.816
+2019-12-03 23:28:56,075 - INFO - allennlp.training.trainer - GPU 0 memory usage MB: 11
+2019-12-03 23:28:56,077 - INFO - allennlp.training.trainer - GPU 1 memory usage MB: 3444
+2019-12-03 23:28:56,077 - INFO - allennlp.training.trainer - GPU 2 memory usage MB: 11
+2019-12-03 23:28:56,077 - INFO - allennlp.training.trainer - GPU 3 memory usage MB: 11
+2019-12-03 23:28:56,077 - INFO - allennlp.training.trainer - GPU 4 memory usage MB: 11
+2019-12-03 23:28:56,077 - INFO - allennlp.training.trainer - GPU 5 memory usage MB: 11
+2019-12-03 23:28:56,078 - INFO - allennlp.training.trainer - GPU 6 memory usage MB: 11
+2019-12-03 23:28:56,078 - INFO - allennlp.training.trainer - GPU 7 memory usage MB: 11
+2019-12-03 23:28:56,078 - INFO - allennlp.training.trainer - GPU 8 memory usage MB: 11
+2019-12-03 23:28:56,078 - INFO - allennlp.training.trainer - GPU 9 memory usage MB: 11
+2019-12-03 23:28:56,078 - INFO - allennlp.training.trainer - GPU 10 memory usage MB: 11
+2019-12-03 23:28:56,078 - INFO - allennlp.training.trainer - GPU 11 memory usage MB: 11
+2019-12-03 23:28:56,078 - INFO - allennlp.training.trainer - GPU 12 memory usage MB: 11
+2019-12-03 23:28:56,078 - INFO - allennlp.training.trainer - GPU 13 memory usage MB: 11
+2019-12-03 23:28:56,078 - INFO - allennlp.training.trainer - GPU 14 memory usage MB: 11
+2019-12-03 23:28:56,078 - INFO - allennlp.training.trainer - GPU 15 memory usage MB: 11
+2019-12-03 23:28:56,079 - INFO - allennlp.training.trainer - Training
+2019-12-03 23:29:22,436 - INFO - allennlp.training.trainer - Validating
+2019-12-03 23:29:23,399 - INFO - allennlp.training.trainer -                      Training |  Validation
+2019-12-03 23:29:23,399 - INFO - allennlp.training.trainer - gpu_3_memory_MB  |    11.000  |       N/A
+2019-12-03 23:29:23,400 - INFO - allennlp.training.trainer - gpu_10_memory_MB |    11.000  |       N/A
+2019-12-03 23:29:23,400 - INFO - allennlp.training.trainer - cpu_memory_MB    |  3114.816  |       N/A
+2019-12-03 23:29:23,400 - INFO - allennlp.training.trainer - gpu_15_memory_MB |    11.000  |       N/A
+2019-12-03 23:29:23,400 - INFO - allennlp.training.trainer - gpu_6_memory_MB  |    11.000  |       N/A
+2019-12-03 23:29:23,400 - INFO - allennlp.training.trainer - accuracy         |     0.918  |     0.840
+2019-12-03 23:29:23,400 - INFO - allennlp.training.trainer - average_F1       |     0.918  |     0.840
+2019-12-03 23:29:23,400 - INFO - allennlp.training.trainer - gpu_12_memory_MB |    11.000  |       N/A
+2019-12-03 23:29:23,400 - INFO - allennlp.training.trainer - gpu_13_memory_MB |    11.000  |       N/A
+2019-12-03 23:29:23,400 - INFO - allennlp.training.trainer - 1_F1             |     0.919  |     0.840
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - loss             |     0.284  |     0.394
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - gpu_0_memory_MB  |    11.000  |       N/A
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - gpu_8_memory_MB  |    11.000  |       N/A
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - gpu_1_memory_MB  |  3444.000  |       N/A
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - gpu_14_memory_MB |    11.000  |       N/A
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - gpu_9_memory_MB  |    11.000  |       N/A
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - gpu_5_memory_MB  |    11.000  |       N/A
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - gpu_7_memory_MB  |    11.000  |       N/A
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - gpu_4_memory_MB  |    11.000  |       N/A
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - gpu_11_memory_MB |    11.000  |       N/A
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - gpu_2_memory_MB  |    11.000  |       N/A
+2019-12-03 23:29:23,401 - INFO - allennlp.training.trainer - 0_F1             |     0.916  |     0.840
+2019-12-03 23:29:24,877 - INFO - allennlp.training.trainer - Epoch duration: 00:00:29
+2019-12-03 23:29:24,877 - INFO - allennlp.training.trainer - Estimated training time remaining: 0:13:11
+2019-12-03 23:29:24,877 - INFO - allennlp.training.trainer - Epoch 3/29
+2019-12-03 23:29:24,877 - INFO - allennlp.training.trainer - Peak CPU memory usage MB: 3114.816
+2019-12-03 23:29:25,166 - INFO - allennlp.training.trainer - GPU 0 memory usage MB: 11
+2019-12-03 23:29:25,166 - INFO - allennlp.training.trainer - GPU 1 memory usage MB: 3456
+2019-12-03 23:29:25,166 - INFO - allennlp.training.trainer - GPU 2 memory usage MB: 11
+2019-12-03 23:29:25,166 - INFO - allennlp.training.trainer - GPU 3 memory usage MB: 11
+2019-12-03 23:29:25,166 - INFO - allennlp.training.trainer - GPU 4 memory usage MB: 11
+2019-12-03 23:29:25,166 - INFO - allennlp.training.trainer - GPU 5 memory usage MB: 11
+2019-12-03 23:29:25,166 - INFO - allennlp.training.trainer - GPU 6 memory usage MB: 11
+2019-12-03 23:29:25,166 - INFO - allennlp.training.trainer - GPU 7 memory usage MB: 11
+2019-12-03 23:29:25,167 - INFO - allennlp.training.trainer - GPU 8 memory usage MB: 11
+2019-12-03 23:29:25,167 - INFO - allennlp.training.trainer - GPU 9 memory usage MB: 11
+2019-12-03 23:29:25,167 - INFO - allennlp.training.trainer - GPU 10 memory usage MB: 11
+2019-12-03 23:29:25,167 - INFO - allennlp.training.trainer - GPU 11 memory usage MB: 11
+2019-12-03 23:29:25,167 - INFO - allennlp.training.trainer - GPU 12 memory usage MB: 11
+2019-12-03 23:29:25,167 - INFO - allennlp.training.trainer - GPU 13 memory usage MB: 11
+2019-12-03 23:29:25,167 - INFO - allennlp.training.trainer - GPU 14 memory usage MB: 11
+2019-12-03 23:29:25,167 - INFO - allennlp.training.trainer - GPU 15 memory usage MB: 11
+2019-12-03 23:29:25,168 - INFO - allennlp.training.trainer - Training
+2019-12-03 23:29:51,662 - INFO - allennlp.training.trainer - Validating
+2019-12-03 23:29:52,639 - INFO - allennlp.training.trainer - Ran out of patience.  Stopping training.
+2019-12-03 23:29:52,639 - INFO - allennlp.models.archival - archiving weights and vocabulary to TransferSNT/01_8e-5bilstm/model.tar.gz
+2019-12-03 23:30:15,640 - INFO - my_library.training.transfer - Loading the best epoch weights.
+2019-12-03 23:30:15,874 - INFO - my_library.training.transfer - The model will be evaluated using the best epoch weights.
+2019-12-03 23:30:15,875 - INFO - allennlp.commands.evaluate - Iterating over dataset
+2019-12-03 23:30:16,918 - INFO - allennlp.common.util - Metrics: {
+  "peak_cpu_memory_MB": 3114.816,
+  "peak_gpu_0_memory_MB": 11,
+  "peak_gpu_1_memory_MB": 3456,
+  "peak_gpu_2_memory_MB": 11,
+  "peak_gpu_3_memory_MB": 11,
+  "peak_gpu_4_memory_MB": 11,
+  "peak_gpu_5_memory_MB": 11,
+  "peak_gpu_6_memory_MB": 11,
+  "peak_gpu_7_memory_MB": 11,
+  "peak_gpu_8_memory_MB": 11,
+  "peak_gpu_9_memory_MB": 11,
+  "peak_gpu_10_memory_MB": 11,
+  "peak_gpu_11_memory_MB": 11,
+  "peak_gpu_12_memory_MB": 11,
+  "peak_gpu_13_memory_MB": 11,
+  "peak_gpu_14_memory_MB": 11,
+  "peak_gpu_15_memory_MB": 11,
+  "training_duration": "00:01:26",
+  "training_start_epoch": 0,
+  "training_epochs": 2,
+  "epoch": 2,
+  "training_1_F1": 0.9187969924811531,
+  "training_0_F1": 0.9162790697673918,
+  "training_accuracy": 0.917557251908397,
+  "training_average_F1": 0.9175380311242725,
+  "training_loss": 0.28448679125527054,
+  "training_cpu_memory_MB": 3114.816,
+  "training_gpu_0_memory_MB": 11,
+  "training_gpu_1_memory_MB": 3444,
+  "training_gpu_2_memory_MB": 11,
+  "training_gpu_3_memory_MB": 11,
+  "training_gpu_4_memory_MB": 11,
+  "training_gpu_5_memory_MB": 11,
+  "training_gpu_6_memory_MB": 11,
+  "training_gpu_7_memory_MB": 11,
+  "training_gpu_8_memory_MB": 11,
+  "training_gpu_9_memory_MB": 11,
+  "training_gpu_10_memory_MB": 11,
+  "training_gpu_11_memory_MB": 11,
+  "training_gpu_12_memory_MB": 11,
+  "training_gpu_13_memory_MB": 11,
+  "training_gpu_14_memory_MB": 11,
+  "training_gpu_15_memory_MB": 11,
+  "validation_1_F1": 0.8395061728394562,
+  "validation_0_F1": 0.8395061728394562,
+  "validation_accuracy": 0.8395061728395061,
+  "validation_average_F1": 0.8395061728394562,
+  "validation_loss": 0.3944363445043564,
+  "best_epoch": 0,
+  "best_validation_1_F1": 0.8499999999999501,
+  "best_validation_0_F1": 0.8536585365853159,
+  "best_validation_accuracy": 0.8518518518518519,
+  "best_validation_average_F1": 0.851829268292633,
+  "best_validation_loss": 0.3919476162303578,
+  "test_1_F1": 0.8152866242037717,
+  "test_0_F1": 0.8263473053891718,
+  "test_accuracy": 0.8209876543209876,
+  "test_average_F1": 0.8208169647964718,
+  "test_loss": 0.4177543249997226
+}

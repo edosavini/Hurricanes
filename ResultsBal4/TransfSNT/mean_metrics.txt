@@ -1,0 +1,12 @@
+Mean metrics for TransfSNT:
+mean_validation_accuracy: 0.8617283950617283
+mean_validation_f1: 0.8628291168297292
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.48191677149046547
+mean_test_accuracy: 0.8135802469135804
+mean_test_f1: 0.8122546134908385
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.633075555617159
+mean_test_avg_f1: 0.8133493074542372

@@ -1,0 +1,12 @@
+Mean metrics for Transfer:
+mean_validation_accuracy: 0.8864197530864196
+mean_validation_f1: 0.8834623647244054
+mean_validation_precision: 0.0
+mean_validation_recall: 0.0
+mean_validation_loss: 0.30651355907320976
+mean_test_accuracy: 0.8444444444444444
+mean_test_f1: 0.8434741644896346
+mean_test_precision: 0.0
+mean_test_recall: 0.0
+mean_test_loss: 0.3448656116696921
+mean_test_avg_f1: 0.8443896497933269
