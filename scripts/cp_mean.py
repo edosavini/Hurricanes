@@ -69,5 +69,5 @@ def _read(dir_path, dest):
 
 
 
-_read("Results2/Normal/2e4", "Results2/mean_metrics.txt")
+_read("../ResultsBalanced5/ElmoBilstm/", "mean_metrics.txt")
 
