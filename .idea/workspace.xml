@@ -3,1445 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dadc96d5-1ae7-4238-8612-72b8a1ba3e1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/01/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/02/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/03/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/03/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/04/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/05/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/ElmoBiLSTM/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/01/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/04/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/05/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastBiLSTM/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/01/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/01/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/01/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/02/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/02/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/02/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/02/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/02/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/03/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/04/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/04/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/05/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/05/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/FastElmoBiLSTM/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/01ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/01ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/01ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/01ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/01ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/01ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_1e3/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_1e3/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_1e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_1e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_1e6/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_1e6/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e4/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e4/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e4/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e4/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e4/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e4/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e4/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e4/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_2e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e4/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e4/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e4/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e4/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e4/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e4/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e4/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_3e5/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e4/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_4e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_5e4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_5e4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_5e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_5e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_5e5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_5e5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_5e5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_5e5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_5e5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_5e5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_5e5/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_14.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_15.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_16.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_19.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_20.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_21.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e4/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_6e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e4/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e4/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e4/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e4/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics_epoch_10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_7e5/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_8e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_8e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_8e5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_8e5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_8e5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_8e5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_8e5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_8e5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_8e5/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_8e5/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e4/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e4/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e4/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e4/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e5/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e6/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02_9e6/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02ok/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/02ok/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/03ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/04ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/05ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/01ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/01ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/01ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/01ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/01ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/01ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/02ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/02ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/02ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/02ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/02ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/02ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/02ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/02ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/02ok/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/02ok/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/03ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/03ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/03ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/03ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/03ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/03ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/04ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/04ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/04ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/04ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/04ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/04ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/04ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/04ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/05ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/05ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/05ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/05ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/05ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/05ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/05ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/2e4/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/Normal/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01_1e3E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01_1e4E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01_1e4E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01_5e4E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01_5e4E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01_5e5E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01_5e5E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01_5e6E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01_5e6E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/01ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_1e3/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_1e4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_1e4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_1e4E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_1e4E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_1e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_1e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/vocabulary/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4/vocabulary/non_padded_namespaces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e4E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e5E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_2e5E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_3e4EBEST2/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_3e4EBEST2/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_4e4E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_4e4E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_5e4E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_5e4E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_5e5BEST/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_5e5BEST/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_5e5E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_5e5E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5/log/train/events.out.tfevents.1583188997.ip-172-31-28-183" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5/log/validation/events.out.tfevents.1583188997.ip-172-31-28-183" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5/vocabulary/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5/vocabulary/non_padded_namespaces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_6e5E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_7e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_7e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_7e5E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_7e5E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e4E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e4E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e5/log/train/events.out.tfevents.1583270336.ip-172-31-28-183" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e5/log/validation/events.out.tfevents.1583270336.ip-172-31-28-183" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e5/vocabulary/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e5/vocabulary/non_padded_namespaces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e5E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_8e5E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_9e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_9e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_9e5E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02_9e5E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/02ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/03ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/04ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/04ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/04ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/04ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/04ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/05ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/05ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/05ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/05ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/05ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/05ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/01ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/01ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/01ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/01ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/01ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/02ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/02ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/02ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/02ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/02ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/03ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/03ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/03ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/03ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/03ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/03ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/04ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/04ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/04ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/04ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/04ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/05ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/05ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/05ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/05ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/05ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/05ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/6e5/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfEMO/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/01ok/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_1e3E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_1e3E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_1e4E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_1e4E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_1e5E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_1e5E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_1e6E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_1e6E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_2e4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_2e4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_2e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_2e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_3e4E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_3e4E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_3e5EBEST/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_3e5EBEST/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_3e6/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_3e6/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_4e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_4e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_5e4E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_5e4E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_5e5E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_5e5E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_5e6E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_5e6E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_6e5BEST/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_6e5BEST/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_6e6/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_6e6/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_7e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_7e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_7e6/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_7e6/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_8e4E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_8e4E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_8e5E/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_8e5E/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_8e5E/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_8e5E/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_8e5E/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_8e5E/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_8e5E/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_9e5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_9e5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_9e6/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02_9e6/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/02ok/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/03ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/04ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/05ok/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/01ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/01ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/01ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/01ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/01ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/01ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/01ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/01ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/01ok/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/02ok/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/03ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/03ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/04ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/04ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/04ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/04ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/04ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/04ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/04ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/04ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/05ok/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/05ok/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/05ok/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/05ok/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/05ok/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/05ok/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/05ok/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/05ok/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/05ok/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/6e5/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal4/TransfSNT/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/01/ElmoBilstm.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/01/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/02/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/02/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/02/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/02/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/02/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/03/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/03/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/04/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/04/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/05/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/05/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/05/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/ElmoBilstm/05/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/01/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/01/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/02/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/04/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/04/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/05/FastBilstm.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/05/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/05/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastBilstmx/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/01/FastElmoBilstm.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/01/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/01/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/02/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/03/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/04/files_to_archive.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/05/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/05/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/FastElmoBilstm/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/log/train/events.out.tfevents.1575415294.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/log/validation/events.out.tfevents.1575415294.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/vocabulary/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5bilstmnorm/vocabulary/non_padded_namespaces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/log/train/events.out.tfevents.1575414133.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/log/validation/events.out.tfevents.1575414133.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/vocabulary/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/01_8e-5norm/vocabulary/non_padded_namespaces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/02/BERTNormal.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/02/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/02/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/02/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/04/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/04/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Normal/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/03/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/05/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Norme-4/05/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/01/TransfSNT.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/SNT4e-4/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_2e-5/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-4/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-4/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-4/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-4/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-4/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-4/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-4/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-4/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-5best/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-5best/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-5best/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-5best/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-5best/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-5best/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-5best/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-5best/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-5best/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-5best/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_5e-5best/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_7e-5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_7e-5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_7e-5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_7e-5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_7e-5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_7e-5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_7e-5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_7e-5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_adam/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_adam/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_adam/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_adam/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_adam/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_adam/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_e-3/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_e-3/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_e-3/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_e-3/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02_e-3/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02best/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02best/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02best/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02best/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02best/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02best/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02best/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics_epoch_10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-5/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-6/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-6/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-6/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-6/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-6/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-6/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/02e-6/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/log/train/events.out.tfevents.1575408318.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/log/validation/events.out.tfevents.1575408318.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/vocabulary/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04/vocabulary/non_padded_namespaces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04_5e-5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04_5e-5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04_5e-5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04_5e-5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04_5e-5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04_5e-5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04_5e-5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04_5e-5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/04_5e-5/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Sent/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/02/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/02/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/02/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer2e-4/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/05/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/Transfer5e-5/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/01/TransfEMO.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/02/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/04/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferEMO3e-4best/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_2e-5/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_5e-3/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_5e-3/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_5e-3/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_5e-3/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_5e-3/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/log/train/events.out.tfevents.1575414098.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/log/validation/events.out.tfevents.1575414098.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/vocabulary/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5/vocabulary/non_padded_namespaces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5bilstm/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5bilstm/log/train/events.out.tfevents.1575415676.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5bilstm/log/validation/events.out.tfevents.1575415676.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5bilstm/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5bilstm/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5bilstm/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5bilstm/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5bilstm/stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5bilstm/stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5bilstm/vocabulary/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01_8e-5bilstm/vocabulary/non_padded_namespaces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-4/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-4/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-4/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-4/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-4/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/01e-5/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/01/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/02e-4/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/02e-4/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/02e-4/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/02e-4/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/02e-4/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/02e-4/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/02e-4/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/02/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/03/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/03/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/04/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/05/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/05/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/log/train/events.out.tfevents.1575416014.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/log/validation/events.out.tfevents.1575416014.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/vocabulary/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/01_8e-5linear/vocabulary/non_padded_namespaces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/log/train/events.out.tfevents.1575418688.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/log/validation/events.out.tfevents.1575418688.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/vocabulary/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/01linear/vocabulary/non_padded_namespaces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/log/train/events.out.tfevents.1575419007.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/log/validation/events.out.tfevents.1575419007.ip-172-31-4-117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/metrics_epoch_9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/vocabulary/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/02linear/vocabulary/non_padded_namespaces.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/03linear/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/03linear/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/03linear/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/03linear/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/03linear/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/03linear/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/03linear/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/03linear/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/03linear/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/04linear/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/04linear/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/04linear/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/04linear/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/04linear/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/04linear/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/04linear/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/05linear/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/05linear/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/05linear/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/05linear/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/05linear/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT02lin/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/01/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/01/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/01/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/01/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/01/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/01/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/01/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/01/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/02/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/02/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/02/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/02/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/02/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/02/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/03/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/03/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/03/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/03/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/03/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/03/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/03/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/03/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/03/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/03/metrics_epoch_7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/03/metrics_epoch_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/04/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/04/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/04/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/04/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/04/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/04/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/04/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/04/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/04/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/05/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/05/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/05/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/05/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/05/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/05/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/05/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/05/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/01linear/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/01linear/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/01linear/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/01linear/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/01linear/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/01linear/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/01linear/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/01linear/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/02linear/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/02linear/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/02linear/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/02linear/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/02linear/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/03linear/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/03linear/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/03linear/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/03linear/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/03linear/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/03linear/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/03linear/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/03linear/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/04linear/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/04linear/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/04linear/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/04linear/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/04linear/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/04linear/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/05linear/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/05linear/metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/05linear/metrics_epoch_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/05linear/metrics_epoch_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/05linear/metrics_epoch_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/05linear/metrics_epoch_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/05linear/metrics_epoch_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/05linear/metrics_epoch_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/05linear/metrics_epoch_6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsBal5/TransferSNT04lin/mean_metrics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/cp_mean.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cp_mean.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1452,43 +13,74 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_library/dataset_readers/emo_reader.py">
+        <entry file="file://$PROJECT_DIR$/scripts/cp_mean.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_library/dataset_readers/hurricanes_reader0.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mean_metrics.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="533">
+              <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/cp_mean.py">
+        <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/mean_metrics.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="71" column="36" lean-forward="true" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+            <state relative-caret-position="150">
+              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/05/config.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/04/config.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/03/config.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/02/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-777" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/01/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_library/training/train_multitask.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_library/training/commands.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/train_local.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -1545,12 +137,13 @@
         <option value="$PROJECT_DIR$/TransferSNT04lin/01linear/config.json" />
         <option value="$PROJECT_DIR$/cp_mean.py" />
         <option value="$PROJECT_DIR$/scripts/cp_mean.py" />
+        <option value="$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/mean_metrics.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="151" />
-    <option name="y" value="41" />
+    <option name="x" value="350" />
+    <option name="y" value="23" />
     <option name="width" value="1077" />
     <option name="height" value="792" />
   </component>
@@ -1570,6 +163,16 @@
             <path>
               <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
+              <item name="my_library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
+              <item name="ResultsBalanced5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hurricanes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hurricanes" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -1584,11 +187,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm" />
       <recent name="$PROJECT_DIR$/ResultsBalanced5/TransfSNT" />
       <recent name="$PROJECT_DIR$/ResultsBalanced4/Normal" />
       <recent name="$PROJECT_DIR$/Results2/Normal/2e4" />
       <recent name="$PROJECT_DIR$/Results2/TransfSNT/6e5" />
-      <recent name="$PROJECT_DIR$/Results2/TransfEMO/6e5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -1795,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584824893303</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update">
+      <created>1584828729610</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1584828729610</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1808,22 +418,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="151" y="41" width="1077" height="792" extended-state="0" />
-    <editor active="true" />
+    <frame x="350" y="23" width="1077" height="792" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.17045455" />
       <window_info id="Structure" order="1" sideWeight="0.5010661" side_tool="true" weight="0.32506886" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53571427" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49810606" visible="true" weight="0.53571427" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4994797" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49810606" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005203" side_tool="true" weight="0.53571427" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50189394" side_tool="true" visible="true" weight="0.53571427" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1878,12 +487,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Normal/02/config.json" />
-    <entry file="file://$PROJECT_DIR$/Normal/mean_metrics.txt" />
-    <entry file="file://$PROJECT_DIR$/TransferSNT02/mean_metrics.txt" />
-    <entry file="file://$PROJECT_DIR$/TransferSNT02lin/mean_metrics.txt" />
-    <entry file="file://$PROJECT_DIR$/TransferSNT04/mean_metrics.txt" />
-    <entry file="file://$PROJECT_DIR$/TransferSNT04lin/mean_metrics.txt" />
     <entry file="file://$PROJECT_DIR$/Transfer5e-5/mean_metrics.txt" />
     <entry file="file://$PROJECT_DIR$/Transfer2e-4/mean_metrics.txt" />
     <entry file="file://$PROJECT_DIR$/SNT4e-4/05/metrics.json" />
@@ -1961,27 +564,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/01/config.json">
+    <entry file="file://$PROJECT_DIR$/scripts/train_local.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/02/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/my_library/training/train_multitask.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/mean_metrics.txt">
+    <entry file="file://$PROJECT_DIR$/my_library/training/commands.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="113">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/cp_mean.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
-          <caret line="71" column="36" lean-forward="true" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/05/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/04/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/03/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/02/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-777" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/01/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultsBalanced5/ElmoBilstm/mean_metrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
